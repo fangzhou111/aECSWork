@@ -35,7 +35,7 @@ function START()
 	  :map(function(value) return value .. '!' end)
 	  :subscribe(print)
 
-  	--[[ui.open("myui")
+  	ui.open("myui")
 
 	local dog = gamepool:createentity()
 	dog:adddog()
@@ -45,7 +45,7 @@ function START()
 	local pig = gamepool:createentity()
 	pig:addpig()
 	pig:addpos(Vector3(0,0,0))
-	pig:addspeed(1)]]--
+	pig:addspeed(1)
 end
 
 function __UPDATE()
