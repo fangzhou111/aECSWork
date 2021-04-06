@@ -197,6 +197,7 @@ public static class CustomSettings
 
         //Custom
         _GT(typeof(Helper)),
+        _GT(typeof(SuperMobs.LuaUtils.GOUtils)),
     };
 
     public static List<Type> dynamicList = new List<Type>()
