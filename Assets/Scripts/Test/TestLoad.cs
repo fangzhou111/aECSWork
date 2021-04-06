@@ -15,8 +15,8 @@ public class TestLoad : MonoBehaviour
 {
     public AssetReference a;
 
-    AssetHandle<GameObject> ah1;
-    AssetHandle<GameObject> ah2;
+    //AssetHandle<GameObject> ah1;
+    //AssetHandle<GameObject> ah2;
     // Start is called before the first frame update
     void Start()
     {
@@ -174,45 +174,45 @@ public class TestLoad : MonoBehaviour
             StartCoroutine(CheckUpdate());
         }
 
-        if(GUILayout.Button("Load1"))
-        {
-            if (ah1 == null)
-                ah1 = new AssetHandle<GameObject>();
+        //if(GUILayout.Button("Load1"))
+        //{
+        //    if (ah1 == null)
+        //        ah1 = new AssetHandle<GameObject>();
 
-            ah1.AsyncLoad("a.prefab", prefab =>
-            {
-                GameObject go = GameObject.Instantiate(prefab);
+        //    ah1.AsyncLoad("a.prefab", prefab =>
+        //    {
+        //        GameObject go = GameObject.Instantiate(prefab);
 
-                go.transform.parent = transform;
-                go.transform.localPosition = Vector3.zero;
-            });
-        }
+        //        go.transform.parent = transform;
+        //        go.transform.localPosition = Vector3.zero;
+        //    });
+        //}
 
-        if (GUILayout.Button("Unload1"))
-        {
-            if (ah1 != null)
-                ah1.Unload();
-        }
+        //if (GUILayout.Button("Unload1"))
+        //{
+        //    if (ah1 != null)
+        //        ah1.Unload();
+        //}
 
-        if (GUILayout.Button("Load2"))
-        {
-            if (ah2 == null)
-                ah2 = new AssetHandle<GameObject>();
+        //if (GUILayout.Button("Load2"))
+        //{
+        //    if (ah2 == null)
+        //        ah2 = new AssetHandle<GameObject>();
 
-            ah2.AsyncLoad("Assets_test_2.prefab", prefab =>
-            {
-                GameObject go = GameObject.Instantiate(prefab);
+        //    ah2.AsyncLoad("Assets_test_2.prefab", prefab =>
+        //    {
+        //        GameObject go = GameObject.Instantiate(prefab);
 
-                go.transform.parent = transform;
-                go.transform.localPosition = Vector3.zero;
-            });
-        }
+        //        go.transform.parent = transform;
+        //        go.transform.localPosition = Vector3.zero;
+        //    });
+        //}
 
-        if (GUILayout.Button("Unload2"))
-        {
-            if (ah2 != null)
-                ah2.Unload();
-        }
+        //if (GUILayout.Button("Unload2"))
+        //{
+        //    if (ah2 != null)
+        //        ah2.Unload();
+        //}
 
         if (GUILayout.Button("Load ref"))
         {
