@@ -1,0 +1,2303 @@
+fileFormatVersion: 2
+guid: 63694e54239287143b5144b019f903f1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: a_hero_1007_02_01_display
+    100004: All
+    100006: butt
+    100008: effect
+    100010: Eyelib
+    100012: eyelib
+    100014: Head
+    100016: head
+    100018: Irig_hiddenNodes_001
+    100020: Irig_hiddenNodes_002
+    100022: Irig_hiddenNodes_003
+    100024: Irig_hiddenNodes_004
+    100026: Irig_hiddenNodes_005
+    100028: Irig_hiddenNodes_006
+    100030: Irig_hiddenNodes_007
+    100032: Irig_hiddenNodes_008
+    100034: Irig_hiddenNodes_009
+    100036: Irig_hiddenNodes_010
+    100038: Irig_hiddenNodes_011
+    100040: Irig_hiddenNodes_012
+    100042: Irig_hiddenNodes_013
+    100044: Irig_hiddenNodes_014
+    100046: Irig_hiddenNodes_015
+    100048: Irig_hiddenNodes_016
+    100050: Irig_hiddenNodes_017
+    100052: Irig_hiddenNodes_018
+    100054: Irig_hiddenNodes_019
+    100056: Irig_hiddenNodes_020
+    100058: Irig_hiddenNodes_021
+    100060: Irig_hiddenNodes_022
+    100062: Irig_hiddenNodes_023
+    100064: Irig_hiddenNodes_024
+    100066: Irig_hiddenNodes_025
+    100068: Irig_hiddenNodes_026
+    100070: Irig_hiddenNodes_027
+    100072: Irig_hiddenNodes_028
+    100074: Irig_hiddenNodes_029
+    100076: Irig_hiddenNodes_030
+    100078: Irig_hiddenNodes_031
+    100080: Irig_hiddenNodes_032
+    100082: Irig_hiddenNodes_033
+    100084: Irig_hiddenNodes_034
+    100086: Irig_hiddenNodes_035
+    100088: Irig_hiddenNodes_037
+    100090: Irig_hiddenNodes_038
+    100092: Irig_hiddenNodes_039
+    100094: Irig_hiddenNodes_040
+    100096: Irig_hiddenNodes_041
+    100098: Irig_hiddenNodes_042
+    100100: Irig_hiddenNodes_043
+    100102: Irig_hiddenNodes_044
+    100104: Irig_hiddenNodes_045
+    100106: Irig_hiddenNodes_046
+    100108: Irig_hiddenNodes_047
+    100110: Irig_hiddenNodes_048
+    100112: Irig_hiddenNodes_049
+    100114: Irig_hiddenNodes_050
+    100116: Irig_hiddenNodes_051
+    100118: Irig_hiddenNodes_052
+    100120: Irig_hiddenNodes_053
+    100122: Irig_hiddenNodes_054
+    100124: Irig_hiddenNodes_055
+    100126: Irig_hiddenNodes_056
+    100128: Irig_hiddenNodes_057
+    100130: Irig_hiddenNodes_058
+    100132: Irig_hiddenNodes_059
+    100134: Irig_hiddenNodes_060
+    100136: Irig_hiddenNodes_061
+    100138: Irig_hiddenNodes_062
+    100140: Irig_hiddenNodes_063
+    100142: Irig_hiddenNodes_064
+    100144: Irig_hiddenNodes_065
+    100146: Irig_hiddenNodes_066
+    100148: Irig_hiddenNodes_067
+    100150: Irig_hiddenNodes_068
+    100152: Irig_hiddenNodes_069
+    100154: Irig_hiddenNodes_070
+    100156: Irig_hiddenNodes_071
+    100158: Irig_hiddenNodes_072
+    100160: Irig_hiddenNodes_073
+    100162: Irig_hiddenNodes_074
+    100164: Irig_hiddenNodes_075
+    100166: Irig_hiddenNodes_076
+    100168: Irig_hiddenNodes_077
+    100170: Irig_hiddenNodes_078
+    100172: Irig_hiddenNodes_079
+    100174: Irig_hiddenNodes_080
+    100176: Irig_hiddenNodes_081
+    100178: Irig_hiddenNodes_082
+    100180: Irig_hiddenNodes_083
+    100182: Irig_hiddenNodes_084
+    100184: Irig_hiddenNodes_085
+    100186: Irig_hiddenNodes_086
+    100188: Irig_hiddenNodes_087
+    100190: Irig_hiddenNodes_088
+    100192: Irig_hiddenNodes_089
+    100194: Irig_hiddenNodes_090
+    100196: Irig_hiddenNodes_091
+    100198: Irig_hiddenNodes_092
+    100200: Irig_hiddenNodes_093
+    100202: Irig_hiddenNodes_095
+    100204: Irig_hiddenNodes_096
+    100206: Irig_hiddenNodes_097
+    100208: Irig_hiddenNodes_098
+    100210: Irig_hiddenNodes_099
+    100212: Irig_hiddenNodes_100
+    100214: Irig_hiddenNodes_101
+    100216: Irig_hiddenNodes_102
+    100218: Irig_hiddenNodes_103
+    100220: Irig_hiddenNodes_104
+    100222: Irig_hiddenNodes_105
+    100224: Irig_hiddenNodes_106
+    100226: Irig_hiddenNodes_107
+    100228: Irig_hiddenNodes_108
+    100230: Irig_hiddenNodes_109
+    100232: Irig_hiddenNodes_110
+    100234: Irig_hiddenNodes_111
+    100236: Irig_hiddenNodes_112
+    100238: Irig_hiddenNodes_113
+    100240: Irig_hiddenNodes_114
+    100242: Irig_hiddenNodes_115
+    100244: Irig_hiddenNodes_116
+    100246: Irig_hiddenNodes_117
+    100248: Irig_hiddenNodes_118
+    100250: Irig_hiddenNodes_119
+    100252: Irig_hiddenNodes_120
+    100254: Irig_hiddenNodes_121
+    100256: Irig_hiddenNodes_122
+    100258: Irig_hiddenNodes_123
+    100260: Irig_hiddenNodes_124
+    100262: Irig_hiddenNodes_125
+    100264: Irig_hiddenNodes_126
+    100266: Irig_hiddenNodes_127
+    100268: Irig_hiddenNodes_128
+    100270: Irig_hiddenNodes_129
+    100272: Irig_hiddenNodes_130
+    100274: Irig_hiddenNodes_131
+    100276: Irig_hiddenNodes_132
+    100278: Irig_hiddenNodes_133
+    100280: Irig_hiddenNodes_134
+    100282: Irig_hiddenNodes_135
+    100284: Irig_hiddenNodes_136
+    100286: Irig_hiddenNodes_137
+    100288: Irig_hiddenNodes_138
+    100290: Irig_hiddenNodes_139
+    100292: Irig_hiddenNodes_140
+    100294: Irig_hiddenNodes_141
+    100296: Irig_hiddenNodes_142
+    100298: Irig_hiddenNodes_143
+    100300: Irig_hiddenNodes_144
+    100302: Irig_hiddenNodes_145
+    100304: Irig_hiddenNodes_146
+    100306: Irig_hiddenNodes_147
+    100308: Irig_hiddenNodes_148
+    100310: Irig_hiddenNodes_149
+    100312: Irig_hiddenNodes_150
+    100314: Irig_hiddenNodes_151
+    100316: Irig_hiddenNodes_152
+    100318: Irig_hiddenNodes_153
+    100320: Irig_hiddenNodes_154
+    100322: Irig_hiddenNodes_155
+    100324: Irig_hiddenNodes_156
+    100326: Irig_hiddenNodes_157
+    100328: Irig_hiddenNodes_158
+    100330: Irig_hiddenNodes_159
+    100332: Irig_hiddenNodes_160
+    100334: Irig_hiddenNodes_161
+    100336: Irig_hiddenNodes_162
+    100338: Irig_hiddenNodes_163
+    100340: Irig_hiddenNodes_164
+    100342: Irig_hiddenNodes_165
+    100344: Irig_hiddenNodes_166
+    100346: Irig_hiddenNodes_167
+    100348: Irig_hiddenNodes_169
+    100350: Irig_hiddenNodes_170
+    100352: Irig_hiddenNodes_171
+    100354: Irig_hiddenNodes_172
+    100356: Irig_hiddenNodes_173
+    100358: Irig_hiddenNodes_174
+    100360: Irig_hiddenNodes_175
+    100362: Irig_hiddenNodes_176
+    100364: Irig_hiddenNodes_177
+    100366: Irig_hiddenNodes_178
+    100368: Irig_hiddenNodes_179
+    100370: Irig_hiddenNodes_180
+    100372: Irig_hiddenNodes_181
+    100374: Irig_hiddenNodes_182
+    100376: Irig_hiddenNodes_183
+    100378: Irig_hiddenNodes_184
+    100380: Irig_hiddenNodes_185
+    100382: Irig_hiddenNodes_186
+    100384: Irig_hiddenNodes_187
+    100386: Irig_hiddenNodes_188
+    100388: Irig_hiddenNodes_189
+    100390: Irig_hiddenNodes_190
+    100392: Irig_hiddenNodes_191
+    100394: Irig_hiddenNodes_192
+    100396: Irig_hiddenNodes_193
+    100398: Irig_hiddenNodes_194
+    100400: Irig_hiddenNodes_195
+    100402: Irig_hiddenNodes_196
+    100404: Irig_hiddenNodes_197
+    100406: Irig_hiddenNodes_198
+    100408: Irig_hiddenNodes_199
+    100410: Irig_hiddenNodes_200
+    100412: Irig_hiddenNodes_201
+    100414: Irig_hiddenNodes_202
+    100416: Irig_hiddenNodes_203
+    100418: Irig_hiddenNodes_204
+    100420: Irig_hiddenNodes_205
+    100422: Irig_hiddenNodes_206
+    100424: Irig_hiddenNodes_207
+    100426: Irig_hiddenNodes_208
+    100428: Irig_hiddenNodes_209
+    100430: Irig_hiddenNodes_210
+    100432: Irig_hiddenNodes_211
+    100434: Irig_hiddenNodes_212
+    100436: Irig_hiddenNodes_213
+    100438: Irig_hiddenNodes_214
+    100440: Irig_hiddenNodes_215
+    100442: Irig_hiddenNodes_216
+    100444: Irig_hiddenNodes_217
+    100446: Irig_hiddenNodes_218
+    100448: Irig_hiddenNodes_219
+    100450: Irig_hiddenNodes_220
+    100452: Irig_hiddenNodes_221
+    100454: Irig_hiddenNodes_222
+    100456: Irig_hiddenNodes_223
+    100458: Irig_hiddenNodes_224
+    100460: Irig_hiddenNodes_226
+    100462: Irig_hiddenNodes_227
+    100464: Irig_hiddenNodes_228
+    100466: Irig_hiddenNodes_229
+    100468: Irig_hiddenNodes_230
+    100470: Irig_hiddenNodes_231
+    100472: Irig_hiddenNodes_232
+    100474: Irig_hiddenNodes_233
+    100476: Irig_hiddenNodes_234
+    100478: Irig_hiddenNodes_235
+    100480: Irig_hiddenNodes_236
+    100482: Irig_hiddenNodes_237
+    100484: Irig_hiddenNodes_238
+    100486: Irig_hiddenNodes_239
+    100488: Irig_hiddenNodes_240
+    100490: Irig_hiddenNodes_241
+    100492: Irig_hiddenNodes_242
+    100494: Irig_hiddenNodes_243
+    100496: Irig_hiddenNodes_244
+    100498: Irig_hiddenNodes_245
+    100500: Irig_hiddenNodes_246
+    100502: Irig_hiddenNodes_247
+    100504: Irig_hiddenNodes_248
+    100506: Irig_hiddenNodes_249
+    100508: Irig_hiddenNodes_250
+    100510: Irig_hiddenNodes_251
+    100512: Irig_hiddenNodes_252
+    100514: Irig_hiddenNodes_253
+    100516: Irig_hiddenNodes_254
+    100518: Irig_hiddenNodes_255
+    100520: Irig_hiddenNodes_256
+    100522: Irig_hiddenNodes_257
+    100524: Irig_hiddenNodes_258
+    100526: Irig_hiddenNodes_259
+    100528: Irig_hiddenNodes_260
+    100530: Irig_hiddenNodes_261
+    100532: Irig_hiddenNodes_262
+    100534: Irig_hiddenNodes_263
+    100536: Irig_hub1
+    100538: Irig_hub1_chain11
+    100540: Irig_hub1_chain11_leg1_foot
+    100542: Irig_hub1_chain11_leg1_foot_AttCtrl
+    100544: Irig_hub1_chain11_leg1_foot_BendCtrl
+    100546: Irig_hub1_chain11_leg1_foot_FKCtrl
+    100548: Irig_hub1_chain11_leg1_foot_FKtoeCtrl
+    100550: Irig_hub1_chain11_leg1_foot_IKctrl
+    100552: Irig_hub1_chain11_leg1_foot_toe
+    100554: Irig_hub1_chain11_leg1_footBlend
+    100556: Irig_hub1_chain11_leg1_lower1
+    100558: Irig_hub1_chain11_leg1_lower1_BendCtrl
+    100560: Irig_hub1_chain11_leg1_lower1_FKCtrl
+    100562: Irig_hub1_chain11_leg1_lower1Blend
+    100564: Irig_hub1_chain11_leg1_upper1
+    100566: Irig_hub1_chain11_leg1_upper1_BendCtrl
+    100568: Irig_hub1_chain11_leg1_upper1_FKCtrl
+    100570: Irig_hub1_chain11_leg1_upper1_MainCtrl
+    100572: Irig_hub1_chain11_leg2_foot
+    100574: Irig_hub1_chain11_leg2_foot_AttCtrl
+    100576: Irig_hub1_chain11_leg2_foot_BendCtrl
+    100578: Irig_hub1_chain11_leg2_foot_FKCtrl
+    100580: Irig_hub1_chain11_leg2_foot_FKtoeCtrl
+    100582: Irig_hub1_chain11_leg2_foot_IKctrl
+    100584: Irig_hub1_chain11_leg2_foot_toe
+    100586: Irig_hub1_chain11_leg2_footBlend
+    100588: Irig_hub1_chain11_leg2_lower1
+    100590: Irig_hub1_chain11_leg2_lower1_BendCtrl
+    100592: Irig_hub1_chain11_leg2_lower1_FKCtrl
+    100594: Irig_hub1_chain11_leg2_lower1Blend
+    100596: Irig_hub1_chain11_leg2_upper1
+    100598: Irig_hub1_chain11_leg2_upper1_BendCtrl
+    100600: Irig_hub1_chain11_leg2_upper1_FKCtrl
+    100602: Irig_hub1_chain11_leg2_upper1_MainCtrl
+    100604: Irig_hub1_chain21
+    100606: Irig_hub1_chain21_chain11
+    100608: Irig_hub1_chain21_chain11_arm1_clavicle
+    100610: Irig_hub1_chain21_chain11_arm1_clavicleBlend
+    100612: Irig_hub1_chain21_chain11_arm1_hand
+    100614: Irig_hub1_chain21_chain11_arm1_hand_BendCtrl
+    100616: Irig_hub1_chain21_chain11_arm1_hand_finger11
+    100618: Irig_hub1_chain21_chain11_arm1_hand_finger11MainCtrl
+    100620: Irig_hub1_chain21_chain11_arm1_hand_finger12
+    100622: Irig_hub1_chain21_chain11_arm1_hand_finger12TipCtrl
+    100624: Irig_hub1_chain21_chain11_arm1_hand_finger21
+    100626: Irig_hub1_chain21_chain11_arm1_hand_finger21MainCtrl
+    100628: Irig_hub1_chain21_chain11_arm1_hand_finger22
+    100630: Irig_hub1_chain21_chain11_arm1_hand_finger22TipCtrl
+    100632: Irig_hub1_chain21_chain11_arm1_hand_finger31
+    100634: Irig_hub1_chain21_chain11_arm1_hand_finger31MainCtrl
+    100636: Irig_hub1_chain21_chain11_arm1_hand_finger32
+    100638: Irig_hub1_chain21_chain11_arm1_hand_finger32TipCtrl
+    100640: Irig_hub1_chain21_chain11_arm1_hand_finger41
+    100642: Irig_hub1_chain21_chain11_arm1_hand_finger41MainCtrl
+    100644: Irig_hub1_chain21_chain11_arm1_hand_finger42
+    100646: Irig_hub1_chain21_chain11_arm1_hand_finger42TipCtrl
+    100648: Irig_hub1_chain21_chain11_arm1_hand_finger51
+    100650: Irig_hub1_chain21_chain11_arm1_hand_finger51MainCtrl
+    100652: Irig_hub1_chain21_chain11_arm1_hand_finger52
+    100654: Irig_hub1_chain21_chain11_arm1_hand_finger52TipCtrl
+    100656: Irig_hub1_chain21_chain11_arm1_handBlend
+    100658: Irig_hub1_chain21_chain11_arm1_lover1
+    100660: Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl
+    100662: Irig_hub1_chain21_chain11_arm1_lover1Blend
+    100664: Irig_hub1_chain21_chain11_arm1_upper1
+    100666: Irig_hub1_chain21_chain11_arm1_upper1_BendCtrl
+    100668: Irig_hub1_chain21_chain11_arm2_clavicle
+    100670: Irig_hub1_chain21_chain11_arm2_clavicleBlend
+    100672: Irig_hub1_chain21_chain11_arm2_hand
+    100674: Irig_hub1_chain21_chain11_arm2_hand_BendCtrl
+    100676: Irig_hub1_chain21_chain11_arm2_hand_chain11
+    100678: Irig_hub1_chain21_chain11_arm2_hand_finger11
+    100680: Irig_hub1_chain21_chain11_arm2_hand_finger11MainCtrl
+    100682: Irig_hub1_chain21_chain11_arm2_hand_finger12
+    100684: Irig_hub1_chain21_chain11_arm2_hand_finger12TipCtrl
+    100686: Irig_hub1_chain21_chain11_arm2_hand_finger21
+    100688: Irig_hub1_chain21_chain11_arm2_hand_finger21MainCtrl
+    100690: Irig_hub1_chain21_chain11_arm2_hand_finger22
+    100692: Irig_hub1_chain21_chain11_arm2_hand_finger22TipCtrl
+    100694: Irig_hub1_chain21_chain11_arm2_hand_finger31
+    100696: Irig_hub1_chain21_chain11_arm2_hand_finger31MainCtrl
+    100698: Irig_hub1_chain21_chain11_arm2_hand_finger32
+    100700: Irig_hub1_chain21_chain11_arm2_hand_finger32TipCtrl
+    100702: Irig_hub1_chain21_chain11_arm2_hand_finger41
+    100704: Irig_hub1_chain21_chain11_arm2_hand_finger41MainCtrl
+    100706: Irig_hub1_chain21_chain11_arm2_hand_finger42
+    100708: Irig_hub1_chain21_chain11_arm2_hand_finger42TipCtrl
+    100710: Irig_hub1_chain21_chain11_arm2_hand_finger51
+    100712: Irig_hub1_chain21_chain11_arm2_hand_finger51MainCtrl
+    100714: Irig_hub1_chain21_chain11_arm2_hand_finger52
+    100716: Irig_hub1_chain21_chain11_arm2_hand_finger52TipCtrl
+    100718: Irig_hub1_chain21_chain11_arm2_handBlend
+    100720: Irig_hub1_chain21_chain11_arm2_lover1
+    100722: Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl
+    100724: Irig_hub1_chain21_chain11_arm2_lover1Blend
+    100726: Irig_hub1_chain21_chain11_arm2_upper1
+    100728: Irig_hub1_chain21_chain11_arm2_upper1_BendCtrl
+    100730: Irig_hub1_chain21_chain11_chain11
+    100732: Irig_hub1_chain21_chain11_chain11_chain11
+    100734: Irig_hub1_innerCtrl
+    100736: L_arm
+    100738: L_arm1_FKCtrl
+    100740: L_arm2_FKCtrl
+    100742: L_Calf
+    100744: L_Clavicle
+    100746: L_elbow
+    100748: L_Eye
+    100750: L_eye
+    100752: L_Foot
+    100754: L_foot
+    100756: L_foot_roll
+    100758: L_Forearm
+    100760: L_Hand
+    100762: L_hand_FKCtrl
+    100764: L_heel_roll
+    100766: L_IK_FK
+    100768: L_index
+    100770: L_index1
+    100772: L_index1 1
+    100774: L_index2
+    100776: L_knee
+    100778: L_Middle
+    100780: L_Middle1
+    100782: L_middle1
+    100784: L_middle2
+    100786: L_Pinky
+    100788: L_Pinky1
+    100790: L_pinky1
+    100792: L_pinky2
+    100794: L_Ring
+    100796: L_Ring1
+    100798: L_ring1
+    100800: L_ring2
+    100802: L_shoulder
+    100804: L_Thigh
+    100806: L_Thumb
+    100808: L_Thumb1
+    100810: L_thumb1
+    100812: L_thumb2
+    100814: L_Toe
+    100816: L_toe
+    100818: L_toe_roll
+    100820: L_UpperArm
+    100822: m_weapon_10401_LOD0
+    100824: m_weapon_10403_LOD0
+    100826: m_weapon_10404_LOD0
+    100828: main
+    100830: Mouth
+    100832: mouth
+    100834: neck
+    100836: neck 1
+    100838: Pelvis
+    100840: R_arm
+    100842: R_arm1_FKCtrl
+    100844: R_arm2_FKCtrl
+    100846: R_Calf
+    100848: R_Clavicle
+    100850: R_elbow
+    100852: R_Eye
+    100854: R_eye
+    100856: R_Foot
+    100858: R_foot
+    100860: R_foot_roll
+    100862: R_Forearm
+    100864: R_Hand
+    100866: R_hand_FKCtrl
+    100868: R_heel_roll
+    100870: R_IK_FK
+    100872: R_index
+    100874: R_index1
+    100876: R_index1 1
+    100878: R_index2
+    100880: R_knee
+    100882: R_Middle
+    100884: R_Middle1
+    100886: R_middle1
+    100888: R_middle2
+    100890: R_Pinky
+    100892: R_Pinky1
+    100894: R_pinky1
+    100896: R_pinky2
+    100898: R_Ring
+    100900: R_Ring1
+    100902: R_ring1
+    100904: R_ring2
+    100906: R_shoulder
+    100908: R_Thigh
+    100910: R_Thumb
+    100912: R_Thumb1
+    100914: R_thumb1
+    100916: R_thumb2
+    100918: R_Toe
+    100920: R_toe
+    100922: R_toe_roll
+    100924: R_UpperArm
+    100926: robot_back_01
+    100928: robot_down_01
+    100930: robot_down_02
+    100932: robot_front_01
+    100934: robot_left_01
+    100936: robot_left_02
+    100938: robot_right_01
+    100940: robot_right_02
+    100942: robot_root
+    100944: robot_up_01
+    100946: robot_up_02
+    100948: root
+    100950: Spine1
+    100952: spine1
+    100954: Spine2
+    100956: spine2
+    100958: Weapon
+    100960: weapon
+    100962: Weapon2
+    100964: weapon2
+    100966: "\u7C92\u5B50\u89C6\u56FE 001"
+    100968: "\u7C92\u5B50\u89C6\u56FE 001 1"
+    100970: "\u7C92\u5B50\u89C6\u56FE 001 2"
+    400000: //RootNode
+    400002: a_hero_1007_02_01_display
+    400004: All
+    400006: butt
+    400008: effect
+    400010: Eyelib
+    400012: eyelib
+    400014: Head
+    400016: head
+    400018: Irig_hiddenNodes_001
+    400020: Irig_hiddenNodes_002
+    400022: Irig_hiddenNodes_003
+    400024: Irig_hiddenNodes_004
+    400026: Irig_hiddenNodes_005
+    400028: Irig_hiddenNodes_006
+    400030: Irig_hiddenNodes_007
+    400032: Irig_hiddenNodes_008
+    400034: Irig_hiddenNodes_009
+    400036: Irig_hiddenNodes_010
+    400038: Irig_hiddenNodes_011
+    400040: Irig_hiddenNodes_012
+    400042: Irig_hiddenNodes_013
+    400044: Irig_hiddenNodes_014
+    400046: Irig_hiddenNodes_015
+    400048: Irig_hiddenNodes_016
+    400050: Irig_hiddenNodes_017
+    400052: Irig_hiddenNodes_018
+    400054: Irig_hiddenNodes_019
+    400056: Irig_hiddenNodes_020
+    400058: Irig_hiddenNodes_021
+    400060: Irig_hiddenNodes_022
+    400062: Irig_hiddenNodes_023
+    400064: Irig_hiddenNodes_024
+    400066: Irig_hiddenNodes_025
+    400068: Irig_hiddenNodes_026
+    400070: Irig_hiddenNodes_027
+    400072: Irig_hiddenNodes_028
+    400074: Irig_hiddenNodes_029
+    400076: Irig_hiddenNodes_030
+    400078: Irig_hiddenNodes_031
+    400080: Irig_hiddenNodes_032
+    400082: Irig_hiddenNodes_033
+    400084: Irig_hiddenNodes_034
+    400086: Irig_hiddenNodes_035
+    400088: Irig_hiddenNodes_037
+    400090: Irig_hiddenNodes_038
+    400092: Irig_hiddenNodes_039
+    400094: Irig_hiddenNodes_040
+    400096: Irig_hiddenNodes_041
+    400098: Irig_hiddenNodes_042
+    400100: Irig_hiddenNodes_043
+    400102: Irig_hiddenNodes_044
+    400104: Irig_hiddenNodes_045
+    400106: Irig_hiddenNodes_046
+    400108: Irig_hiddenNodes_047
+    400110: Irig_hiddenNodes_048
+    400112: Irig_hiddenNodes_049
+    400114: Irig_hiddenNodes_050
+    400116: Irig_hiddenNodes_051
+    400118: Irig_hiddenNodes_052
+    400120: Irig_hiddenNodes_053
+    400122: Irig_hiddenNodes_054
+    400124: Irig_hiddenNodes_055
+    400126: Irig_hiddenNodes_056
+    400128: Irig_hiddenNodes_057
+    400130: Irig_hiddenNodes_058
+    400132: Irig_hiddenNodes_059
+    400134: Irig_hiddenNodes_060
+    400136: Irig_hiddenNodes_061
+    400138: Irig_hiddenNodes_062
+    400140: Irig_hiddenNodes_063
+    400142: Irig_hiddenNodes_064
+    400144: Irig_hiddenNodes_065
+    400146: Irig_hiddenNodes_066
+    400148: Irig_hiddenNodes_067
+    400150: Irig_hiddenNodes_068
+    400152: Irig_hiddenNodes_069
+    400154: Irig_hiddenNodes_070
+    400156: Irig_hiddenNodes_071
+    400158: Irig_hiddenNodes_072
+    400160: Irig_hiddenNodes_073
+    400162: Irig_hiddenNodes_074
+    400164: Irig_hiddenNodes_075
+    400166: Irig_hiddenNodes_076
+    400168: Irig_hiddenNodes_077
+    400170: Irig_hiddenNodes_078
+    400172: Irig_hiddenNodes_079
+    400174: Irig_hiddenNodes_080
+    400176: Irig_hiddenNodes_081
+    400178: Irig_hiddenNodes_082
+    400180: Irig_hiddenNodes_083
+    400182: Irig_hiddenNodes_084
+    400184: Irig_hiddenNodes_085
+    400186: Irig_hiddenNodes_086
+    400188: Irig_hiddenNodes_087
+    400190: Irig_hiddenNodes_088
+    400192: Irig_hiddenNodes_089
+    400194: Irig_hiddenNodes_090
+    400196: Irig_hiddenNodes_091
+    400198: Irig_hiddenNodes_092
+    400200: Irig_hiddenNodes_093
+    400202: Irig_hiddenNodes_095
+    400204: Irig_hiddenNodes_096
+    400206: Irig_hiddenNodes_097
+    400208: Irig_hiddenNodes_098
+    400210: Irig_hiddenNodes_099
+    400212: Irig_hiddenNodes_100
+    400214: Irig_hiddenNodes_101
+    400216: Irig_hiddenNodes_102
+    400218: Irig_hiddenNodes_103
+    400220: Irig_hiddenNodes_104
+    400222: Irig_hiddenNodes_105
+    400224: Irig_hiddenNodes_106
+    400226: Irig_hiddenNodes_107
+    400228: Irig_hiddenNodes_108
+    400230: Irig_hiddenNodes_109
+    400232: Irig_hiddenNodes_110
+    400234: Irig_hiddenNodes_111
+    400236: Irig_hiddenNodes_112
+    400238: Irig_hiddenNodes_113
+    400240: Irig_hiddenNodes_114
+    400242: Irig_hiddenNodes_115
+    400244: Irig_hiddenNodes_116
+    400246: Irig_hiddenNodes_117
+    400248: Irig_hiddenNodes_118
+    400250: Irig_hiddenNodes_119
+    400252: Irig_hiddenNodes_120
+    400254: Irig_hiddenNodes_121
+    400256: Irig_hiddenNodes_122
+    400258: Irig_hiddenNodes_123
+    400260: Irig_hiddenNodes_124
+    400262: Irig_hiddenNodes_125
+    400264: Irig_hiddenNodes_126
+    400266: Irig_hiddenNodes_127
+    400268: Irig_hiddenNodes_128
+    400270: Irig_hiddenNodes_129
+    400272: Irig_hiddenNodes_130
+    400274: Irig_hiddenNodes_131
+    400276: Irig_hiddenNodes_132
+    400278: Irig_hiddenNodes_133
+    400280: Irig_hiddenNodes_134
+    400282: Irig_hiddenNodes_135
+    400284: Irig_hiddenNodes_136
+    400286: Irig_hiddenNodes_137
+    400288: Irig_hiddenNodes_138
+    400290: Irig_hiddenNodes_139
+    400292: Irig_hiddenNodes_140
+    400294: Irig_hiddenNodes_141
+    400296: Irig_hiddenNodes_142
+    400298: Irig_hiddenNodes_143
+    400300: Irig_hiddenNodes_144
+    400302: Irig_hiddenNodes_145
+    400304: Irig_hiddenNodes_146
+    400306: Irig_hiddenNodes_147
+    400308: Irig_hiddenNodes_148
+    400310: Irig_hiddenNodes_149
+    400312: Irig_hiddenNodes_150
+    400314: Irig_hiddenNodes_151
+    400316: Irig_hiddenNodes_152
+    400318: Irig_hiddenNodes_153
+    400320: Irig_hiddenNodes_154
+    400322: Irig_hiddenNodes_155
+    400324: Irig_hiddenNodes_156
+    400326: Irig_hiddenNodes_157
+    400328: Irig_hiddenNodes_158
+    400330: Irig_hiddenNodes_159
+    400332: Irig_hiddenNodes_160
+    400334: Irig_hiddenNodes_161
+    400336: Irig_hiddenNodes_162
+    400338: Irig_hiddenNodes_163
+    400340: Irig_hiddenNodes_164
+    400342: Irig_hiddenNodes_165
+    400344: Irig_hiddenNodes_166
+    400346: Irig_hiddenNodes_167
+    400348: Irig_hiddenNodes_169
+    400350: Irig_hiddenNodes_170
+    400352: Irig_hiddenNodes_171
+    400354: Irig_hiddenNodes_172
+    400356: Irig_hiddenNodes_173
+    400358: Irig_hiddenNodes_174
+    400360: Irig_hiddenNodes_175
+    400362: Irig_hiddenNodes_176
+    400364: Irig_hiddenNodes_177
+    400366: Irig_hiddenNodes_178
+    400368: Irig_hiddenNodes_179
+    400370: Irig_hiddenNodes_180
+    400372: Irig_hiddenNodes_181
+    400374: Irig_hiddenNodes_182
+    400376: Irig_hiddenNodes_183
+    400378: Irig_hiddenNodes_184
+    400380: Irig_hiddenNodes_185
+    400382: Irig_hiddenNodes_186
+    400384: Irig_hiddenNodes_187
+    400386: Irig_hiddenNodes_188
+    400388: Irig_hiddenNodes_189
+    400390: Irig_hiddenNodes_190
+    400392: Irig_hiddenNodes_191
+    400394: Irig_hiddenNodes_192
+    400396: Irig_hiddenNodes_193
+    400398: Irig_hiddenNodes_194
+    400400: Irig_hiddenNodes_195
+    400402: Irig_hiddenNodes_196
+    400404: Irig_hiddenNodes_197
+    400406: Irig_hiddenNodes_198
+    400408: Irig_hiddenNodes_199
+    400410: Irig_hiddenNodes_200
+    400412: Irig_hiddenNodes_201
+    400414: Irig_hiddenNodes_202
+    400416: Irig_hiddenNodes_203
+    400418: Irig_hiddenNodes_204
+    400420: Irig_hiddenNodes_205
+    400422: Irig_hiddenNodes_206
+    400424: Irig_hiddenNodes_207
+    400426: Irig_hiddenNodes_208
+    400428: Irig_hiddenNodes_209
+    400430: Irig_hiddenNodes_210
+    400432: Irig_hiddenNodes_211
+    400434: Irig_hiddenNodes_212
+    400436: Irig_hiddenNodes_213
+    400438: Irig_hiddenNodes_214
+    400440: Irig_hiddenNodes_215
+    400442: Irig_hiddenNodes_216
+    400444: Irig_hiddenNodes_217
+    400446: Irig_hiddenNodes_218
+    400448: Irig_hiddenNodes_219
+    400450: Irig_hiddenNodes_220
+    400452: Irig_hiddenNodes_221
+    400454: Irig_hiddenNodes_222
+    400456: Irig_hiddenNodes_223
+    400458: Irig_hiddenNodes_224
+    400460: Irig_hiddenNodes_226
+    400462: Irig_hiddenNodes_227
+    400464: Irig_hiddenNodes_228
+    400466: Irig_hiddenNodes_229
+    400468: Irig_hiddenNodes_230
+    400470: Irig_hiddenNodes_231
+    400472: Irig_hiddenNodes_232
+    400474: Irig_hiddenNodes_233
+    400476: Irig_hiddenNodes_234
+    400478: Irig_hiddenNodes_235
+    400480: Irig_hiddenNodes_236
+    400482: Irig_hiddenNodes_237
+    400484: Irig_hiddenNodes_238
+    400486: Irig_hiddenNodes_239
+    400488: Irig_hiddenNodes_240
+    400490: Irig_hiddenNodes_241
+    400492: Irig_hiddenNodes_242
+    400494: Irig_hiddenNodes_243
+    400496: Irig_hiddenNodes_244
+    400498: Irig_hiddenNodes_245
+    400500: Irig_hiddenNodes_246
+    400502: Irig_hiddenNodes_247
+    400504: Irig_hiddenNodes_248
+    400506: Irig_hiddenNodes_249
+    400508: Irig_hiddenNodes_250
+    400510: Irig_hiddenNodes_251
+    400512: Irig_hiddenNodes_252
+    400514: Irig_hiddenNodes_253
+    400516: Irig_hiddenNodes_254
+    400518: Irig_hiddenNodes_255
+    400520: Irig_hiddenNodes_256
+    400522: Irig_hiddenNodes_257
+    400524: Irig_hiddenNodes_258
+    400526: Irig_hiddenNodes_259
+    400528: Irig_hiddenNodes_260
+    400530: Irig_hiddenNodes_261
+    400532: Irig_hiddenNodes_262
+    400534: Irig_hiddenNodes_263
+    400536: Irig_hub1
+    400538: Irig_hub1_chain11
+    400540: Irig_hub1_chain11_leg1_foot
+    400542: Irig_hub1_chain11_leg1_foot_AttCtrl
+    400544: Irig_hub1_chain11_leg1_foot_BendCtrl
+    400546: Irig_hub1_chain11_leg1_foot_FKCtrl
+    400548: Irig_hub1_chain11_leg1_foot_FKtoeCtrl
+    400550: Irig_hub1_chain11_leg1_foot_IKctrl
+    400552: Irig_hub1_chain11_leg1_foot_toe
+    400554: Irig_hub1_chain11_leg1_footBlend
+    400556: Irig_hub1_chain11_leg1_lower1
+    400558: Irig_hub1_chain11_leg1_lower1_BendCtrl
+    400560: Irig_hub1_chain11_leg1_lower1_FKCtrl
+    400562: Irig_hub1_chain11_leg1_lower1Blend
+    400564: Irig_hub1_chain11_leg1_upper1
+    400566: Irig_hub1_chain11_leg1_upper1_BendCtrl
+    400568: Irig_hub1_chain11_leg1_upper1_FKCtrl
+    400570: Irig_hub1_chain11_leg1_upper1_MainCtrl
+    400572: Irig_hub1_chain11_leg2_foot
+    400574: Irig_hub1_chain11_leg2_foot_AttCtrl
+    400576: Irig_hub1_chain11_leg2_foot_BendCtrl
+    400578: Irig_hub1_chain11_leg2_foot_FKCtrl
+    400580: Irig_hub1_chain11_leg2_foot_FKtoeCtrl
+    400582: Irig_hub1_chain11_leg2_foot_IKctrl
+    400584: Irig_hub1_chain11_leg2_foot_toe
+    400586: Irig_hub1_chain11_leg2_footBlend
+    400588: Irig_hub1_chain11_leg2_lower1
+    400590: Irig_hub1_chain11_leg2_lower1_BendCtrl
+    400592: Irig_hub1_chain11_leg2_lower1_FKCtrl
+    400594: Irig_hub1_chain11_leg2_lower1Blend
+    400596: Irig_hub1_chain11_leg2_upper1
+    400598: Irig_hub1_chain11_leg2_upper1_BendCtrl
+    400600: Irig_hub1_chain11_leg2_upper1_FKCtrl
+    400602: Irig_hub1_chain11_leg2_upper1_MainCtrl
+    400604: Irig_hub1_chain21
+    400606: Irig_hub1_chain21_chain11
+    400608: Irig_hub1_chain21_chain11_arm1_clavicle
+    400610: Irig_hub1_chain21_chain11_arm1_clavicleBlend
+    400612: Irig_hub1_chain21_chain11_arm1_hand
+    400614: Irig_hub1_chain21_chain11_arm1_hand_BendCtrl
+    400616: Irig_hub1_chain21_chain11_arm1_hand_finger11
+    400618: Irig_hub1_chain21_chain11_arm1_hand_finger11MainCtrl
+    400620: Irig_hub1_chain21_chain11_arm1_hand_finger12
+    400622: Irig_hub1_chain21_chain11_arm1_hand_finger12TipCtrl
+    400624: Irig_hub1_chain21_chain11_arm1_hand_finger21
+    400626: Irig_hub1_chain21_chain11_arm1_hand_finger21MainCtrl
+    400628: Irig_hub1_chain21_chain11_arm1_hand_finger22
+    400630: Irig_hub1_chain21_chain11_arm1_hand_finger22TipCtrl
+    400632: Irig_hub1_chain21_chain11_arm1_hand_finger31
+    400634: Irig_hub1_chain21_chain11_arm1_hand_finger31MainCtrl
+    400636: Irig_hub1_chain21_chain11_arm1_hand_finger32
+    400638: Irig_hub1_chain21_chain11_arm1_hand_finger32TipCtrl
+    400640: Irig_hub1_chain21_chain11_arm1_hand_finger41
+    400642: Irig_hub1_chain21_chain11_arm1_hand_finger41MainCtrl
+    400644: Irig_hub1_chain21_chain11_arm1_hand_finger42
+    400646: Irig_hub1_chain21_chain11_arm1_hand_finger42TipCtrl
+    400648: Irig_hub1_chain21_chain11_arm1_hand_finger51
+    400650: Irig_hub1_chain21_chain11_arm1_hand_finger51MainCtrl
+    400652: Irig_hub1_chain21_chain11_arm1_hand_finger52
+    400654: Irig_hub1_chain21_chain11_arm1_hand_finger52TipCtrl
+    400656: Irig_hub1_chain21_chain11_arm1_handBlend
+    400658: Irig_hub1_chain21_chain11_arm1_lover1
+    400660: Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl
+    400662: Irig_hub1_chain21_chain11_arm1_lover1Blend
+    400664: Irig_hub1_chain21_chain11_arm1_upper1
+    400666: Irig_hub1_chain21_chain11_arm1_upper1_BendCtrl
+    400668: Irig_hub1_chain21_chain11_arm2_clavicle
+    400670: Irig_hub1_chain21_chain11_arm2_clavicleBlend
+    400672: Irig_hub1_chain21_chain11_arm2_hand
+    400674: Irig_hub1_chain21_chain11_arm2_hand_BendCtrl
+    400676: Irig_hub1_chain21_chain11_arm2_hand_chain11
+    400678: Irig_hub1_chain21_chain11_arm2_hand_finger11
+    400680: Irig_hub1_chain21_chain11_arm2_hand_finger11MainCtrl
+    400682: Irig_hub1_chain21_chain11_arm2_hand_finger12
+    400684: Irig_hub1_chain21_chain11_arm2_hand_finger12TipCtrl
+    400686: Irig_hub1_chain21_chain11_arm2_hand_finger21
+    400688: Irig_hub1_chain21_chain11_arm2_hand_finger21MainCtrl
+    400690: Irig_hub1_chain21_chain11_arm2_hand_finger22
+    400692: Irig_hub1_chain21_chain11_arm2_hand_finger22TipCtrl
+    400694: Irig_hub1_chain21_chain11_arm2_hand_finger31
+    400696: Irig_hub1_chain21_chain11_arm2_hand_finger31MainCtrl
+    400698: Irig_hub1_chain21_chain11_arm2_hand_finger32
+    400700: Irig_hub1_chain21_chain11_arm2_hand_finger32TipCtrl
+    400702: Irig_hub1_chain21_chain11_arm2_hand_finger41
+    400704: Irig_hub1_chain21_chain11_arm2_hand_finger41MainCtrl
+    400706: Irig_hub1_chain21_chain11_arm2_hand_finger42
+    400708: Irig_hub1_chain21_chain11_arm2_hand_finger42TipCtrl
+    400710: Irig_hub1_chain21_chain11_arm2_hand_finger51
+    400712: Irig_hub1_chain21_chain11_arm2_hand_finger51MainCtrl
+    400714: Irig_hub1_chain21_chain11_arm2_hand_finger52
+    400716: Irig_hub1_chain21_chain11_arm2_hand_finger52TipCtrl
+    400718: Irig_hub1_chain21_chain11_arm2_handBlend
+    400720: Irig_hub1_chain21_chain11_arm2_lover1
+    400722: Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl
+    400724: Irig_hub1_chain21_chain11_arm2_lover1Blend
+    400726: Irig_hub1_chain21_chain11_arm2_upper1
+    400728: Irig_hub1_chain21_chain11_arm2_upper1_BendCtrl
+    400730: Irig_hub1_chain21_chain11_chain11
+    400732: Irig_hub1_chain21_chain11_chain11_chain11
+    400734: Irig_hub1_innerCtrl
+    400736: L_arm
+    400738: L_arm1_FKCtrl
+    400740: L_arm2_FKCtrl
+    400742: L_Calf
+    400744: L_Clavicle
+    400746: L_elbow
+    400748: L_Eye
+    400750: L_eye
+    400752: L_Foot
+    400754: L_foot
+    400756: L_foot_roll
+    400758: L_Forearm
+    400760: L_Hand
+    400762: L_hand_FKCtrl
+    400764: L_heel_roll
+    400766: L_IK_FK
+    400768: L_index
+    400770: L_index1
+    400772: L_index1 1
+    400774: L_index2
+    400776: L_knee
+    400778: L_Middle
+    400780: L_Middle1
+    400782: L_middle1
+    400784: L_middle2
+    400786: L_Pinky
+    400788: L_Pinky1
+    400790: L_pinky1
+    400792: L_pinky2
+    400794: L_Ring
+    400796: L_Ring1
+    400798: L_ring1
+    400800: L_ring2
+    400802: L_shoulder
+    400804: L_Thigh
+    400806: L_Thumb
+    400808: L_Thumb1
+    400810: L_thumb1
+    400812: L_thumb2
+    400814: L_Toe
+    400816: L_toe
+    400818: L_toe_roll
+    400820: L_UpperArm
+    400822: m_weapon_10401_LOD0
+    400824: m_weapon_10403_LOD0
+    400826: m_weapon_10404_LOD0
+    400828: main
+    400830: Mouth
+    400832: mouth
+    400834: neck
+    400836: neck 1
+    400838: Pelvis
+    400840: R_arm
+    400842: R_arm1_FKCtrl
+    400844: R_arm2_FKCtrl
+    400846: R_Calf
+    400848: R_Clavicle
+    400850: R_elbow
+    400852: R_Eye
+    400854: R_eye
+    400856: R_Foot
+    400858: R_foot
+    400860: R_foot_roll
+    400862: R_Forearm
+    400864: R_Hand
+    400866: R_hand_FKCtrl
+    400868: R_heel_roll
+    400870: R_IK_FK
+    400872: R_index
+    400874: R_index1
+    400876: R_index1 1
+    400878: R_index2
+    400880: R_knee
+    400882: R_Middle
+    400884: R_Middle1
+    400886: R_middle1
+    400888: R_middle2
+    400890: R_Pinky
+    400892: R_Pinky1
+    400894: R_pinky1
+    400896: R_pinky2
+    400898: R_Ring
+    400900: R_Ring1
+    400902: R_ring1
+    400904: R_ring2
+    400906: R_shoulder
+    400908: R_Thigh
+    400910: R_Thumb
+    400912: R_Thumb1
+    400914: R_thumb1
+    400916: R_thumb2
+    400918: R_Toe
+    400920: R_toe
+    400922: R_toe_roll
+    400924: R_UpperArm
+    400926: robot_back_01
+    400928: robot_down_01
+    400930: robot_down_02
+    400932: robot_front_01
+    400934: robot_left_01
+    400936: robot_left_02
+    400938: robot_right_01
+    400940: robot_right_02
+    400942: robot_root
+    400944: robot_up_01
+    400946: robot_up_02
+    400948: root
+    400950: Spine1
+    400952: spine1
+    400954: Spine2
+    400956: spine2
+    400958: Weapon
+    400960: weapon
+    400962: Weapon2
+    400964: weapon2
+    400966: "\u7C92\u5B50\u89C6\u56FE 001"
+    400968: "\u7C92\u5B50\u89C6\u56FE 001 1"
+    400970: "\u7C92\u5B50\u89C6\u56FE 001 2"
+    2100000: m_weapon_10401
+    2100002: m_weapon_10403
+    2100004: m_weapon_10404
+    2100006: No Name
+    2100008: a_hero_1007_02_01_display
+    2300000: a_hero_1007_02_01_display
+    2300002: All
+    2300004: butt
+    2300006: head
+    2300008: Irig_hub1_chain11_leg1_foot_AttCtrl
+    2300010: Irig_hub1_chain11_leg1_foot_FKCtrl
+    2300012: Irig_hub1_chain11_leg1_foot_FKtoeCtrl
+    2300014: Irig_hub1_chain11_leg1_lower1_FKCtrl
+    2300016: Irig_hub1_chain11_leg1_upper1_FKCtrl
+    2300018: Irig_hub1_chain11_leg1_upper1_MainCtrl
+    2300020: Irig_hub1_chain11_leg2_foot_AttCtrl
+    2300022: Irig_hub1_chain11_leg2_foot_FKCtrl
+    2300024: Irig_hub1_chain11_leg2_foot_FKtoeCtrl
+    2300026: Irig_hub1_chain11_leg2_lower1_FKCtrl
+    2300028: Irig_hub1_chain11_leg2_upper1_FKCtrl
+    2300030: Irig_hub1_chain11_leg2_upper1_MainCtrl
+    2300032: Irig_hub1_innerCtrl
+    2300034: L_arm
+    2300036: L_arm1_FKCtrl
+    2300038: L_arm2_FKCtrl
+    2300040: L_elbow
+    2300042: L_foot
+    2300044: L_foot_roll
+    2300046: L_hand_FKCtrl
+    2300048: L_heel_roll
+    2300050: L_IK_FK
+    2300052: L_index1
+    2300054: L_index2
+    2300056: L_knee
+    2300058: L_middle1
+    2300060: L_middle2
+    2300062: L_pinky1
+    2300064: L_pinky2
+    2300066: L_ring1
+    2300068: L_ring2
+    2300070: L_shoulder
+    2300072: L_thumb1
+    2300074: L_thumb2
+    2300076: L_toe
+    2300078: L_toe_roll
+    2300080: m_weapon_10401_LOD0
+    2300082: m_weapon_10403_LOD0
+    2300084: m_weapon_10404_LOD0
+    2300086: main
+    2300088: neck 1
+    2300090: R_arm
+    2300092: R_arm1_FKCtrl
+    2300094: R_arm2_FKCtrl
+    2300096: R_elbow
+    2300098: R_foot
+    2300100: R_foot_roll
+    2300102: R_hand_FKCtrl
+    2300104: R_heel_roll
+    2300106: R_IK_FK
+    2300108: R_index1
+    2300110: R_index2
+    2300112: R_knee
+    2300114: R_middle1
+    2300116: R_middle2
+    2300118: R_pinky1
+    2300120: R_pinky2
+    2300122: R_ring1
+    2300124: R_ring2
+    2300126: R_shoulder
+    2300128: R_thumb1
+    2300130: R_thumb2
+    2300132: R_toe
+    2300134: R_toe_roll
+    2300136: spine1
+    2300138: spine2
+    2300140: weapon
+    2300142: weapon2
+    3300000: a_hero_1007_02_01_display
+    3300002: All
+    3300004: butt
+    3300006: head
+    3300008: Irig_hub1_chain11_leg1_foot_AttCtrl
+    3300010: Irig_hub1_chain11_leg1_foot_FKCtrl
+    3300012: Irig_hub1_chain11_leg1_foot_FKtoeCtrl
+    3300014: Irig_hub1_chain11_leg1_lower1_FKCtrl
+    3300016: Irig_hub1_chain11_leg1_upper1_FKCtrl
+    3300018: Irig_hub1_chain11_leg1_upper1_MainCtrl
+    3300020: Irig_hub1_chain11_leg2_foot_AttCtrl
+    3300022: Irig_hub1_chain11_leg2_foot_FKCtrl
+    3300024: Irig_hub1_chain11_leg2_foot_FKtoeCtrl
+    3300026: Irig_hub1_chain11_leg2_lower1_FKCtrl
+    3300028: Irig_hub1_chain11_leg2_upper1_FKCtrl
+    3300030: Irig_hub1_chain11_leg2_upper1_MainCtrl
+    3300032: Irig_hub1_innerCtrl
+    3300034: L_arm
+    3300036: L_arm1_FKCtrl
+    3300038: L_arm2_FKCtrl
+    3300040: L_elbow
+    3300042: L_foot
+    3300044: L_foot_roll
+    3300046: L_hand_FKCtrl
+    3300048: L_heel_roll
+    3300050: L_IK_FK
+    3300052: L_index1
+    3300054: L_index2
+    3300056: L_knee
+    3300058: L_middle1
+    3300060: L_middle2
+    3300062: L_pinky1
+    3300064: L_pinky2
+    3300066: L_ring1
+    3300068: L_ring2
+    3300070: L_shoulder
+    3300072: L_thumb1
+    3300074: L_thumb2
+    3300076: L_toe
+    3300078: L_toe_roll
+    3300080: m_weapon_10401_LOD0
+    3300082: m_weapon_10403_LOD0
+    3300084: m_weapon_10404_LOD0
+    3300086: main
+    3300088: neck 1
+    3300090: R_arm
+    3300092: R_arm1_FKCtrl
+    3300094: R_arm2_FKCtrl
+    3300096: R_elbow
+    3300098: R_foot
+    3300100: R_foot_roll
+    3300102: R_hand_FKCtrl
+    3300104: R_heel_roll
+    3300106: R_IK_FK
+    3300108: R_index1
+    3300110: R_index2
+    3300112: R_knee
+    3300114: R_middle1
+    3300116: R_middle2
+    3300118: R_pinky1
+    3300120: R_pinky2
+    3300122: R_ring1
+    3300124: R_ring2
+    3300126: R_shoulder
+    3300128: R_thumb1
+    3300130: R_thumb2
+    3300132: R_toe
+    3300134: R_toe_roll
+    3300136: spine1
+    3300138: spine2
+    3300140: weapon
+    3300142: weapon2
+    4300000: m_weapon_10401_LOD0
+    4300002: m_weapon_10403_LOD0
+    4300004: m_weapon_10404_LOD0
+    4300006: All
+    4300008: main
+    4300010: Irig_hub1_innerCtrl
+    4300012: butt
+    4300014: spine1
+    4300016: spine2
+    4300018: neck
+    4300020: head
+    4300022: Irig_hub1_chain11_leg1_upper1_MainCtrl
+    4300024: Irig_hub1_chain11_leg1_foot_AttCtrl
+    4300026: Irig_hub1_chain11_leg1_upper1_FKCtrl
+    4300028: Irig_hub1_chain11_leg1_lower1_FKCtrl
+    4300030: Irig_hub1_chain11_leg1_foot_FKCtrl
+    4300032: Irig_hub1_chain11_leg1_foot_FKtoeCtrl
+    4300034: R_knee
+    4300036: R_foot
+    4300038: R_heel_roll
+    4300040: R_toe_roll
+    4300042: R_foot_roll
+    4300044: R_toe
+    4300046: Irig_hub1_chain11_leg2_upper1_MainCtrl
+    4300048: Irig_hub1_chain11_leg2_foot_AttCtrl
+    4300050: Irig_hub1_chain11_leg2_upper1_FKCtrl
+    4300052: Irig_hub1_chain11_leg2_lower1_FKCtrl
+    4300054: Irig_hub1_chain11_leg2_foot_FKCtrl
+    4300056: Irig_hub1_chain11_leg2_foot_FKtoeCtrl
+    4300058: L_knee
+    4300060: L_foot
+    4300062: L_heel_roll
+    4300064: L_toe_roll
+    4300066: L_foot_roll
+    4300068: L_toe
+    4300070: L_shoulder
+    4300072: L_thumb1
+    4300074: L_thumb2
+    4300076: L_index1
+    4300078: L_index2
+    4300080: L_middle1
+    4300082: L_middle2
+    4300084: L_ring1
+    4300086: L_ring2
+    4300088: L_pinky1
+    4300090: L_pinky2
+    4300092: L_IK_FK
+    4300094: weapon2
+    4300096: L_arm1_FKCtrl
+    4300098: L_arm2_FKCtrl
+    4300100: L_hand_FKCtrl
+    4300102: L_elbow
+    4300104: L_arm
+    4300106: R_shoulder
+    4300108: R_thumb1
+    4300110: R_thumb2
+    4300112: R_index1
+    4300114: R_index2
+    4300116: R_middle1
+    4300118: R_middle2
+    4300120: R_ring1
+    4300122: R_ring2
+    4300124: R_pinky1
+    4300126: R_pinky2
+    4300128: R_IK_FK
+    4300130: weapon
+    4300132: R_arm1_FKCtrl
+    4300134: R_arm2_FKCtrl
+    4300136: R_hand_FKCtrl
+    4300138: R_elbow
+    4300140: R_arm
+    4300142: a_hero_1007_02_01_display
+    7400000: a_hero_1007_02_01_arm_woman_201010_01
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.05
+    animationPositionError: 0.05
+    animationScaleError: 0.05
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: a_hero_1007_02_01_arm_woman_201010_01
+      takeName: a_hero_1007_02_01_arm_woman_201010_01
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: a_hero_1007_02_01_display
+        weight: 1
+      - path: All
+        weight: 1
+      - path: All/Irig_hiddenNodes_001
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hiddenNodes_010
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hiddenNodes_068
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hiddenNodes_142
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hiddenNodes_199
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_002
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt/Irig_hub1_chain11
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt/Irig_hub1_chain11/Irig_hiddenNodes_006
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt/Irig_hub1_chain11/Irig_hiddenNodes_064
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt/Irig_hub1_chain11/Irig_hiddenNodes_256
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt/Irig_hub1_chain11/Irig_hiddenNodes_257
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_004/Irig_hiddenNodes_005/butt/Irig_hub1_chain11/Irig_hiddenNodes_258
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_122
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_126
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_130
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_134
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_259
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_259/mouth
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_260
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_260/eyelib
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_261
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_261/R_eye
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_262
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_132/Irig_hiddenNodes_133/neck
+          1/Irig_hub1_chain21_chain11_chain11/Irig_hiddenNodes_136/Irig_hiddenNodes_137/head/Irig_hub1_chain21_chain11_chain11_chain11/Irig_hiddenNodes_262/L_eye
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_138
+        weight: 1
+      - path: All/Irig_hiddenNodes_001/main/Irig_hub1_innerCtrl/Irig_hub1/Irig_hiddenNodes_124/Irig_hiddenNodes_125/spine1/Irig_hub1_chain21/Irig_hiddenNodes_128/Irig_hiddenNodes_129/spine2/Irig_hub1_chain21_chain11/Irig_hiddenNodes_195
+        weight: 1
+      - path: All/Irig_hiddenNodes_003
+        weight: 1
+      - path: All/Irig_hiddenNodes_007
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_017
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018/Irig_hiddenNodes_019
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018/Irig_hiddenNodes_019/Irig_hiddenNodes_023
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018/Irig_hiddenNodes_020
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018/Irig_hiddenNodes_020/Irig_hiddenNodes_021
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018/Irig_hiddenNodes_020/Irig_hiddenNodes_058
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_016/Irig_hiddenNodes_018/Irig_hiddenNodes_020/Irig_hiddenNodes_058/Irig_hiddenNodes_059
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_025
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_025/Irig_hiddenNodes_026
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_031
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl/Irig_hiddenNodes_042
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl/Irig_hiddenNodes_043
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl/Irig_hiddenNodes_044
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl/Irig_hiddenNodes_048
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl/Irig_hiddenNodes_049
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_032/Irig_hiddenNodes_035/Irig_hub1_chain11_leg1_lower1_BendCtrl/Irig_hiddenNodes_050
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_037
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_037/Irig_hiddenNodes_038
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_037/Irig_hiddenNodes_038/Irig_hub1_chain11_leg1_foot_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_037/Irig_hiddenNodes_038/Irig_hub1_chain11_leg1_foot_BendCtrl/Irig_hiddenNodes_051
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_037/Irig_hiddenNodes_038/Irig_hub1_chain11_leg1_foot_BendCtrl/Irig_hiddenNodes_052
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_037/Irig_hiddenNodes_038/Irig_hub1_chain11_leg1_foot_BendCtrl/Irig_hiddenNodes_053
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_063
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hiddenNodes_063/Irig_hub1_chain11_leg1_foot_toe
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hub1_chain11_leg1_foot
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_033/Irig_hub1_chain11_leg1_foot/Irig_hub1_chain11_leg1_foot_AttCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_034
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_034/Irig_hub1_chain11_leg1_upper1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_034/Irig_hub1_chain11_leg1_upper1_BendCtrl/Irig_hiddenNodes_039
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_034/Irig_hub1_chain11_leg1_upper1_BendCtrl/Irig_hiddenNodes_040
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hiddenNodes_034/Irig_hub1_chain11_leg1_upper1_BendCtrl/Irig_hiddenNodes_041
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hub1_chain11_leg1_footBlend
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hub1_chain11_leg1_lower1
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hub1_chain11_leg1_lower1/Irig_hiddenNodes_057
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hub1_chain11_leg1_lower1Blend
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_009/Irig_hub1_chain11_leg1_upper1
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hiddenNodes_013
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hiddenNodes_013/Irig_hiddenNodes_028
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hiddenNodes_013/Irig_hiddenNodes_029
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hiddenNodes_013/Irig_hiddenNodes_029/Irig_hiddenNodes_030
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hiddenNodes_014
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hiddenNodes_014/Irig_hiddenNodes_027
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hub1_chain11_leg1_foot_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hub1_chain11_leg1_foot_FKCtrl/Irig_hiddenNodes_015
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hub1_chain11_leg1_foot_FKCtrl/Irig_hiddenNodes_015/Irig_hub1_chain11_leg1_foot_FKtoeCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hub1_chain11_leg1_foot_FKCtrl/Irig_hiddenNodes_015/Irig_hub1_chain11_leg1_foot_FKtoeCtrl/Irig_hiddenNodes_061
+        weight: 1
+      - path: All/Irig_hiddenNodes_007/Irig_hub1_chain11_leg1_upper1_MainCtrl/Irig_hiddenNodes_008/Irig_hiddenNodes_011/Irig_hiddenNodes_012/Irig_hub1_chain11_leg1_upper1_FKCtrl/Irig_hub1_chain11_leg1_lower1_FKCtrl/Irig_hub1_chain11_leg1_foot_FKCtrl/Irig_hiddenNodes_015/Irig_hub1_chain11_leg1_foot_FKtoeCtrl/Irig_hiddenNodes_062
+        weight: 1
+      - path: All/Irig_hiddenNodes_022
+        weight: 1
+      - path: All/Irig_hiddenNodes_022/R_knee
+        weight: 1
+      - path: All/Irig_hiddenNodes_045
+        weight: 1
+      - path: All/Irig_hiddenNodes_046
+        weight: 1
+      - path: All/Irig_hiddenNodes_047
+        weight: 1
+      - path: All/Irig_hiddenNodes_054
+        weight: 1
+      - path: All/Irig_hiddenNodes_055
+        weight: 1
+      - path: All/Irig_hiddenNodes_056
+        weight: 1
+      - path: All/Irig_hiddenNodes_065
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_075
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076/Irig_hiddenNodes_077
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076/Irig_hiddenNodes_077/Irig_hiddenNodes_081
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076/Irig_hiddenNodes_078
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076/Irig_hiddenNodes_078/Irig_hiddenNodes_079
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076/Irig_hiddenNodes_078/Irig_hiddenNodes_116
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_074/Irig_hiddenNodes_076/Irig_hiddenNodes_078/Irig_hiddenNodes_116/Irig_hiddenNodes_117
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_083
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_083/Irig_hiddenNodes_084
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_089
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl/Irig_hiddenNodes_100
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl/Irig_hiddenNodes_101
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl/Irig_hiddenNodes_102
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl/Irig_hiddenNodes_106
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl/Irig_hiddenNodes_107
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_090/Irig_hiddenNodes_093/Irig_hub1_chain11_leg2_lower1_BendCtrl/Irig_hiddenNodes_108
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_095
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_095/Irig_hiddenNodes_096
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_095/Irig_hiddenNodes_096/Irig_hub1_chain11_leg2_foot_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_095/Irig_hiddenNodes_096/Irig_hub1_chain11_leg2_foot_BendCtrl/Irig_hiddenNodes_109
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_095/Irig_hiddenNodes_096/Irig_hub1_chain11_leg2_foot_BendCtrl/Irig_hiddenNodes_110
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_095/Irig_hiddenNodes_096/Irig_hub1_chain11_leg2_foot_BendCtrl/Irig_hiddenNodes_111
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_121
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hiddenNodes_121/Irig_hub1_chain11_leg2_foot_toe
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hub1_chain11_leg2_foot
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_091/Irig_hub1_chain11_leg2_foot/Irig_hub1_chain11_leg2_foot_AttCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_092
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_092/Irig_hub1_chain11_leg2_upper1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_092/Irig_hub1_chain11_leg2_upper1_BendCtrl/Irig_hiddenNodes_097
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_092/Irig_hub1_chain11_leg2_upper1_BendCtrl/Irig_hiddenNodes_098
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hiddenNodes_092/Irig_hub1_chain11_leg2_upper1_BendCtrl/Irig_hiddenNodes_099
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hub1_chain11_leg2_footBlend
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hub1_chain11_leg2_lower1
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hub1_chain11_leg2_lower1/Irig_hiddenNodes_115
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hub1_chain11_leg2_lower1Blend
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_067/Irig_hub1_chain11_leg2_upper1
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hiddenNodes_071
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hiddenNodes_071/Irig_hiddenNodes_086
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hiddenNodes_071/Irig_hiddenNodes_087
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hiddenNodes_071/Irig_hiddenNodes_087/Irig_hiddenNodes_088
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hiddenNodes_072
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hiddenNodes_072/Irig_hiddenNodes_085
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hub1_chain11_leg2_foot_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hub1_chain11_leg2_foot_FKCtrl/Irig_hiddenNodes_073
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hub1_chain11_leg2_foot_FKCtrl/Irig_hiddenNodes_073/Irig_hub1_chain11_leg2_foot_FKtoeCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hub1_chain11_leg2_foot_FKCtrl/Irig_hiddenNodes_073/Irig_hub1_chain11_leg2_foot_FKtoeCtrl/Irig_hiddenNodes_119
+        weight: 1
+      - path: All/Irig_hiddenNodes_065/Irig_hub1_chain11_leg2_upper1_MainCtrl/Irig_hiddenNodes_066/Irig_hiddenNodes_069/Irig_hiddenNodes_070/Irig_hub1_chain11_leg2_upper1_FKCtrl/Irig_hub1_chain11_leg2_lower1_FKCtrl/Irig_hub1_chain11_leg2_foot_FKCtrl/Irig_hiddenNodes_073/Irig_hub1_chain11_leg2_foot_FKtoeCtrl/Irig_hiddenNodes_120
+        weight: 1
+      - path: All/Irig_hiddenNodes_080
+        weight: 1
+      - path: All/Irig_hiddenNodes_080/L_knee
+        weight: 1
+      - path: All/Irig_hiddenNodes_103
+        weight: 1
+      - path: All/Irig_hiddenNodes_104
+        weight: 1
+      - path: All/Irig_hiddenNodes_105
+        weight: 1
+      - path: All/Irig_hiddenNodes_112
+        weight: 1
+      - path: All/Irig_hiddenNodes_113
+        weight: 1
+      - path: All/Irig_hiddenNodes_114
+        weight: 1
+      - path: All/Irig_hiddenNodes_123
+        weight: 1
+      - path: All/Irig_hiddenNodes_127
+        weight: 1
+      - path: All/Irig_hiddenNodes_131
+        weight: 1
+      - path: All/Irig_hiddenNodes_135
+        weight: 1
+      - path: All/Irig_hiddenNodes_139
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148/Irig_hiddenNodes_149
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148/Irig_hiddenNodes_150
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148/Irig_hiddenNodes_150/Irig_hiddenNodes_151
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148/Irig_hiddenNodes_150/Irig_hiddenNodes_151/Irig_hiddenNodes_155
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148/Irig_hiddenNodes_150/Irig_hiddenNodes_152
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_148/Irig_hiddenNodes_150/Irig_hiddenNodes_152/Irig_hiddenNodes_153
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_157
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_157/Irig_hiddenNodes_158
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_163
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl/Irig_hiddenNodes_174
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl/Irig_hiddenNodes_175
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl/Irig_hiddenNodes_176
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl/Irig_hiddenNodes_180
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl/Irig_hiddenNodes_181
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_164/Irig_hiddenNodes_167/Irig_hub1_chain21_chain11_arm1_lover1_BendCtrl/Irig_hiddenNodes_182
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hiddenNodes_169
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hiddenNodes_169/Irig_hiddenNodes_170
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hiddenNodes_169/Irig_hiddenNodes_170/Irig_hub1_chain21_chain11_arm1_hand_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hiddenNodes_169/Irig_hiddenNodes_170/Irig_hub1_chain21_chain11_arm1_hand_BendCtrl/Irig_hiddenNodes_183
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hiddenNodes_169/Irig_hiddenNodes_170/Irig_hub1_chain21_chain11_arm1_hand_BendCtrl/Irig_hiddenNodes_184
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hiddenNodes_169/Irig_hiddenNodes_170/Irig_hub1_chain21_chain11_arm1_hand_BendCtrl/Irig_hiddenNodes_185
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190/L_thumb1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190/L_thumb1/Irig_hub1_chain21_chain11_arm1_hand_finger11
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190/L_thumb1/Irig_hub1_chain21_chain11_arm1_hand_finger11MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190/L_thumb1/Irig_hub1_chain21_chain11_arm1_hand_finger12
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190/L_thumb1/L_thumb2
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_190/L_thumb1/L_thumb2/Irig_hub1_chain21_chain11_arm1_hand_finger12TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191/L_index1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191/L_index1/Irig_hub1_chain21_chain11_arm1_hand_finger21
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191/L_index1/Irig_hub1_chain21_chain11_arm1_hand_finger21MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191/L_index1/Irig_hub1_chain21_chain11_arm1_hand_finger22
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191/L_index1/L_index2
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_191/L_index1/L_index2/Irig_hub1_chain21_chain11_arm1_hand_finger22TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192/L_middle1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192/L_middle1/Irig_hub1_chain21_chain11_arm1_hand_finger31
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192/L_middle1/Irig_hub1_chain21_chain11_arm1_hand_finger31MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192/L_middle1/Irig_hub1_chain21_chain11_arm1_hand_finger32
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192/L_middle1/L_middle2
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_192/L_middle1/L_middle2/Irig_hub1_chain21_chain11_arm1_hand_finger32TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193/L_ring1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193/L_ring1/Irig_hub1_chain21_chain11_arm1_hand_finger41
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193/L_ring1/Irig_hub1_chain21_chain11_arm1_hand_finger41MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193/L_ring1/Irig_hub1_chain21_chain11_arm1_hand_finger42
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193/L_ring1/L_ring2
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_193/L_ring1/L_ring2/Irig_hub1_chain21_chain11_arm1_hand_finger42TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194/L_pinky1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194/L_pinky1/Irig_hub1_chain21_chain11_arm1_hand_finger51
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194/L_pinky1/Irig_hub1_chain21_chain11_arm1_hand_finger51MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194/L_pinky1/Irig_hub1_chain21_chain11_arm1_hand_finger52
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194/L_pinky1/L_pinky2
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_194/L_pinky1/L_pinky2/Irig_hub1_chain21_chain11_arm1_hand_finger52TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_263
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/Irig_hiddenNodes_263/weapon2
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_165/Irig_hub1_chain21_chain11_arm1_hand/L_IK_FK
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_166
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_166/Irig_hub1_chain21_chain11_arm1_upper1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_166/Irig_hub1_chain21_chain11_arm1_upper1_BendCtrl/Irig_hiddenNodes_171
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_166/Irig_hub1_chain21_chain11_arm1_upper1_BendCtrl/Irig_hiddenNodes_172
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hiddenNodes_166/Irig_hub1_chain21_chain11_arm1_upper1_BendCtrl/Irig_hiddenNodes_173
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hub1_chain21_chain11_arm1_clavicleBlend
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hub1_chain21_chain11_arm1_handBlend
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hub1_chain21_chain11_arm1_lover1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hub1_chain21_chain11_arm1_lover1/Irig_hiddenNodes_189
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hub1_chain21_chain11_arm1_lover1Blend
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_141/Irig_hub1_chain21_chain11_arm1_upper1
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/Irig_hiddenNodes_145
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/Irig_hiddenNodes_145/Irig_hiddenNodes_160
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/Irig_hiddenNodes_145/Irig_hiddenNodes_161
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/Irig_hiddenNodes_145/Irig_hiddenNodes_161/Irig_hiddenNodes_162
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/L_arm2_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/L_arm2_FKCtrl/Irig_hiddenNodes_146
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/L_arm2_FKCtrl/Irig_hiddenNodes_146/Irig_hiddenNodes_159
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/L_arm2_FKCtrl/L_hand_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_139/L_shoulder/Irig_hiddenNodes_140/Irig_hub1_chain21_chain11_arm1_clavicle/Irig_hiddenNodes_143/Irig_hiddenNodes_144/L_arm1_FKCtrl/L_arm2_FKCtrl/L_hand_FKCtrl/Irig_hiddenNodes_147
+        weight: 1
+      - path: All/Irig_hiddenNodes_154
+        weight: 1
+      - path: All/Irig_hiddenNodes_154/L_elbow
+        weight: 1
+      - path: All/Irig_hiddenNodes_177
+        weight: 1
+      - path: All/Irig_hiddenNodes_178
+        weight: 1
+      - path: All/Irig_hiddenNodes_179
+        weight: 1
+      - path: All/Irig_hiddenNodes_186
+        weight: 1
+      - path: All/Irig_hiddenNodes_187
+        weight: 1
+      - path: All/Irig_hiddenNodes_188
+        weight: 1
+      - path: All/Irig_hiddenNodes_196
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205/Irig_hiddenNodes_206
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205/Irig_hiddenNodes_207
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205/Irig_hiddenNodes_207/Irig_hiddenNodes_208
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205/Irig_hiddenNodes_207/Irig_hiddenNodes_208/Irig_hiddenNodes_212
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205/Irig_hiddenNodes_207/Irig_hiddenNodes_209
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_205/Irig_hiddenNodes_207/Irig_hiddenNodes_209/Irig_hiddenNodes_210
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_214
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_214/Irig_hiddenNodes_215
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_220
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl/Irig_hiddenNodes_231
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl/Irig_hiddenNodes_232
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl/Irig_hiddenNodes_233
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl/Irig_hiddenNodes_237
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl/Irig_hiddenNodes_238
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_221/Irig_hiddenNodes_224/Irig_hub1_chain21_chain11_arm2_lover1_BendCtrl/Irig_hiddenNodes_239
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hiddenNodes_226
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hiddenNodes_226/Irig_hiddenNodes_227
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hiddenNodes_226/Irig_hiddenNodes_227/Irig_hub1_chain21_chain11_arm2_hand_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hiddenNodes_226/Irig_hiddenNodes_227/Irig_hub1_chain21_chain11_arm2_hand_BendCtrl/Irig_hiddenNodes_240
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hiddenNodes_226/Irig_hiddenNodes_227/Irig_hub1_chain21_chain11_arm2_hand_BendCtrl/Irig_hiddenNodes_241
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hiddenNodes_226/Irig_hiddenNodes_227/Irig_hub1_chain21_chain11_arm2_hand_BendCtrl/Irig_hiddenNodes_242
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247/R_thumb1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247/R_thumb1/Irig_hub1_chain21_chain11_arm2_hand_finger11
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247/R_thumb1/Irig_hub1_chain21_chain11_arm2_hand_finger11MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247/R_thumb1/Irig_hub1_chain21_chain11_arm2_hand_finger12
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247/R_thumb1/R_thumb2
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_247/R_thumb1/R_thumb2/Irig_hub1_chain21_chain11_arm2_hand_finger12TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248/R_index1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248/R_index1/Irig_hub1_chain21_chain11_arm2_hand_finger21
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248/R_index1/Irig_hub1_chain21_chain11_arm2_hand_finger21MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248/R_index1/Irig_hub1_chain21_chain11_arm2_hand_finger22
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248/R_index1/R_index2
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_248/R_index1/R_index2/Irig_hub1_chain21_chain11_arm2_hand_finger22TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249/R_middle1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249/R_middle1/Irig_hub1_chain21_chain11_arm2_hand_finger31
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249/R_middle1/Irig_hub1_chain21_chain11_arm2_hand_finger31MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249/R_middle1/Irig_hub1_chain21_chain11_arm2_hand_finger32
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249/R_middle1/R_middle2
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_249/R_middle1/R_middle2/Irig_hub1_chain21_chain11_arm2_hand_finger32TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250/R_ring1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250/R_ring1/Irig_hub1_chain21_chain11_arm2_hand_finger41
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250/R_ring1/Irig_hub1_chain21_chain11_arm2_hand_finger41MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250/R_ring1/Irig_hub1_chain21_chain11_arm2_hand_finger42
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250/R_ring1/R_ring2
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_250/R_ring1/R_ring2/Irig_hub1_chain21_chain11_arm2_hand_finger42TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251/R_pinky1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251/R_pinky1/Irig_hub1_chain21_chain11_arm2_hand_finger51
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251/R_pinky1/Irig_hub1_chain21_chain11_arm2_hand_finger51MainCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251/R_pinky1/Irig_hub1_chain21_chain11_arm2_hand_finger52
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251/R_pinky1/R_pinky2
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_251/R_pinky1/R_pinky2/Irig_hub1_chain21_chain11_arm2_hand_finger52TipCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_252
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_254
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_254/Irig_hiddenNodes_255
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_254/Irig_hiddenNodes_255/weapon
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/Irig_hiddenNodes_254/Irig_hiddenNodes_255/weapon/Irig_hub1_chain21_chain11_arm2_hand_chain11
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_222/Irig_hub1_chain21_chain11_arm2_hand/R_IK_FK
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_223
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_223/Irig_hub1_chain21_chain11_arm2_upper1_BendCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_223/Irig_hub1_chain21_chain11_arm2_upper1_BendCtrl/Irig_hiddenNodes_228
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_223/Irig_hub1_chain21_chain11_arm2_upper1_BendCtrl/Irig_hiddenNodes_229
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hiddenNodes_223/Irig_hub1_chain21_chain11_arm2_upper1_BendCtrl/Irig_hiddenNodes_230
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hub1_chain21_chain11_arm2_clavicleBlend
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hub1_chain21_chain11_arm2_handBlend
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hub1_chain21_chain11_arm2_lover1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hub1_chain21_chain11_arm2_lover1/Irig_hiddenNodes_246
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hub1_chain21_chain11_arm2_lover1Blend
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_198/Irig_hub1_chain21_chain11_arm2_upper1
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/Irig_hiddenNodes_202
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/Irig_hiddenNodes_202/Irig_hiddenNodes_217
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/Irig_hiddenNodes_202/Irig_hiddenNodes_218
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/Irig_hiddenNodes_202/Irig_hiddenNodes_218/Irig_hiddenNodes_219
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/R_arm2_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/R_arm2_FKCtrl/Irig_hiddenNodes_203
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/R_arm2_FKCtrl/Irig_hiddenNodes_203/Irig_hiddenNodes_216
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/R_arm2_FKCtrl/R_hand_FKCtrl
+        weight: 1
+      - path: All/Irig_hiddenNodes_196/R_shoulder/Irig_hiddenNodes_197/Irig_hub1_chain21_chain11_arm2_clavicle/Irig_hiddenNodes_200/Irig_hiddenNodes_201/R_arm1_FKCtrl/R_arm2_FKCtrl/R_hand_FKCtrl/Irig_hiddenNodes_204
+        weight: 1
+      - path: All/Irig_hiddenNodes_211
+        weight: 1
+      - path: All/Irig_hiddenNodes_211/R_elbow
+        weight: 1
+      - path: All/Irig_hiddenNodes_234
+        weight: 1
+      - path: All/Irig_hiddenNodes_235
+        weight: 1
+      - path: All/Irig_hiddenNodes_236
+        weight: 1
+      - path: All/Irig_hiddenNodes_243
+        weight: 1
+      - path: All/Irig_hiddenNodes_244
+        weight: 1
+      - path: All/Irig_hiddenNodes_245
+        weight: 1
+      - path: All/Irig_hiddenNodes_253
+        weight: 1
+      - path: All/L_arm
+        weight: 1
+      - path: All/L_arm/Irig_hiddenNodes_156
+        weight: 1
+      - path: All/L_foot
+        weight: 1
+      - path: All/L_foot/L_heel_roll
+        weight: 1
+      - path: All/L_foot/L_heel_roll/L_toe_roll
+        weight: 1
+      - path: All/L_foot/L_heel_roll/L_toe_roll/Irig_hiddenNodes_118
+        weight: 1
+      - path: All/L_foot/L_heel_roll/L_toe_roll/Irig_hiddenNodes_118/L_toe
+        weight: 1
+      - path: All/L_foot/L_heel_roll/L_toe_roll/L_foot_roll
+        weight: 1
+      - path: All/L_foot/L_heel_roll/L_toe_roll/L_foot_roll/Irig_hub1_chain11_leg2_foot_IKctrl
+        weight: 1
+      - path: All/L_foot/L_heel_roll/L_toe_roll/L_foot_roll/Irig_hub1_chain11_leg2_foot_IKctrl/Irig_hiddenNodes_082
+        weight: 1
+      - path: All/R_arm
+        weight: 1
+      - path: All/R_arm/Irig_hiddenNodes_213
+        weight: 1
+      - path: All/R_foot
+        weight: 1
+      - path: All/R_foot/R_heel_roll
+        weight: 1
+      - path: All/R_foot/R_heel_roll/R_toe_roll
+        weight: 1
+      - path: All/R_foot/R_heel_roll/R_toe_roll/Irig_hiddenNodes_060
+        weight: 1
+      - path: All/R_foot/R_heel_roll/R_toe_roll/Irig_hiddenNodes_060/R_toe
+        weight: 1
+      - path: All/R_foot/R_heel_roll/R_toe_roll/R_foot_roll
+        weight: 1
+      - path: All/R_foot/R_heel_roll/R_toe_roll/R_foot_roll/Irig_hub1_chain11_leg1_foot_IKctrl
+        weight: 1
+      - path: All/R_foot/R_heel_roll/R_toe_roll/R_foot_roll/Irig_hub1_chain11_leg1_foot_IKctrl/Irig_hiddenNodes_024
+        weight: 1
+      - path: m_weapon_10401_LOD0
+        weight: 1
+      - path: m_weapon_10403_LOD0
+        weight: 1
+      - path: m_weapon_10404_LOD0
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/Pelvis
+        weight: 1
+      - path: root/Pelvis/L_Thigh
+        weight: 1
+      - path: root/Pelvis/L_Thigh/L_Calf
+        weight: 1
+      - path: root/Pelvis/L_Thigh/L_Calf/L_Foot
+        weight: 1
+      - path: root/Pelvis/L_Thigh/L_Calf/L_Foot/L_Toe
+        weight: 1
+      - path: root/Pelvis/R_Thigh
+        weight: 1
+      - path: root/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: root/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: root/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe
+        weight: 1
+      - path: root/Pelvis/Spine1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_index
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_index/L_index1
+          1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Middle
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Middle/L_Middle1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Pinky
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Pinky/L_Pinky1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Ring
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Ring/L_Ring1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Thumb
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Thumb/L_Thumb1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/Weapon2
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/neck
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/neck/Head
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/neck/Head/Eyelib
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/neck/Head/L_Eye
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/neck/Head/Mouth
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/neck/Head/R_Eye
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_index
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_index/R_index1
+          1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Middle
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Middle/R_Middle1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Pinky
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Pinky/R_Pinky1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Ring
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Ring/R_Ring1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Thumb
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Thumb/R_Thumb1
+        weight: 1
+      - path: root/Pelvis/Spine1/Spine2/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/Weapon
+        weight: 1
+      - path: root/robot_root
+        weight: 1
+      - path: root/robot_root/effect
+        weight: 1
+      - path: root/robot_root/robot_back_01
+        weight: 1
+      - path: root/robot_root/robot_down_01
+        weight: 1
+      - path: root/robot_root/robot_down_01/robot_down_02
+        weight: 1
+      - path: root/robot_root/robot_front_01
+        weight: 1
+      - path: root/robot_root/robot_left_01
+        weight: 1
+      - path: root/robot_root/robot_left_01/robot_left_02
+        weight: 1
+      - path: root/robot_root/robot_right_01
+        weight: 1
+      - path: root/robot_root/robot_right_01/robot_right_02
+        weight: 1
+      - path: root/robot_root/robot_up_01
+        weight: 1
+      - path: root/robot_root/robot_up_01/robot_up_02
+        weight: 1
+      - path: "\u7C92\u5B50\u89C6\u56FE 001"
+        weight: 1
+      - path: "\u7C92\u5B50\u89C6\u56FE 001 1"
+        weight: 1
+      - path: "\u7C92\u5B50\u89C6\u56FE 001 2"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

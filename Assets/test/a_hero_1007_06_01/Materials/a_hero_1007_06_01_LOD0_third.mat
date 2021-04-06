@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: a_hero_1007_06_01_LOD0_third
+  m_Shader: {fileID: 4800000, guid: 19d57ec2acdb2454b9764bcd68011899, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorE:
+        m_Texture: {fileID: 2800000, guid: e121d5fb6e41a5c4c977acb910b547bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientLight: 0.541
+    - _Highlight: 0.252
+    - _MainLightIntensity: 1.007
+    - _SelfShadowHardness: 0.262
+    - _SelfShadowSize: 0.154
+    - _ShadowIntensity: 0.495
+    m_Colors:
+    - _OwnerLightAmbient: {r: 0.4339623, g: 0.4278213, b: 0.4278213, a: 1}

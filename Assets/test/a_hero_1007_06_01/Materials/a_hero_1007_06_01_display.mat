@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: a_hero_1007_06_01_display
+  m_Shader: {fileID: 4800000, guid: 9b1c857eb27dcfe45921a1498f65cbfb, type: 3}
+  m_ShaderKeywords: _PATTERNMODE_ADD
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorE:
+        m_Texture: {fileID: 2800000, guid: e121d5fb6e41a5c4c977acb910b547bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapTex:
+        m_Texture: {fileID: 2800000, guid: 68f296e00746b0d4e8692442e73c2ae3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: e8d84fb8be1a91e4c94b73be9370844e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PatternMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PatternTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SMMS:
+        m_Texture: {fileID: 2800000, guid: 0f1e1337f0503e54dba13f8d00222a4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ANiEmi: 0
+    - _AO: 2
+    - _AmbientLight: 0.588
+    - _AniSpeed: 0.5
+    - _CUSTOMSKINADDCOLOR_BOOL: 0
+    - _CUSTOMSKINPATTERNTEX_BOOL: 0
+    - _CUSTOMSKIN_BOOL: 0
+    - _ColorfulAll: 0.981
+    - _ColorfulMetal: 0.532
+    - _CubeIntensity: 0.953
+    - _CustomSkinMode: 0
+    - _EnvMin: 0.1
+    - _Gloss: 1
+    - _Highlight: 0.496
+    - _HighlightSaturation: 1
+    - _Luminance: 0
+    - _MainLightIntensity: 0.738
+    - _MaskModeHeight: 0
+    - _Metal: 0.607
+    - _PATTERNMODE: 0
+    - _RimLight: 0.354
+    - _RimShaodowLight: 0.158
+    - _Rotation: -71
+    - _SKin: 0.308
+    - _SKinShadow: 0.13
+    - _SelfShadowHardness: 0.631
+    - _SelfShadowSize: 0.664
+    - _ShadowIntensity: 0.701
+    - _WholeAO: 1
+    m_Colors:
+    - _EmissiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _MaskVector: {r: 0, g: 0, b: 0, a: 0}
+    - _OwnerLightAmbient: {r: 0.23584908, g: 0.2256512, b: 0.22361162, a: 1}
+    - _PatternColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _PatternColor2: {r: 1, g: 1, b: 1, a: 0}
+    - _SkinColor: {r: 0.6320754, g: 0.37775132, b: 0.1699448, a: 1}
+    - _SkinDeepColor: {r: 0.2924528, g: 0.095185116, b: 0.095185116, a: 1}

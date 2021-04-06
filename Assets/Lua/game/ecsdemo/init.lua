@@ -1,0 +1,10 @@
+ecs.regmodule(
+{
+"game.ecsdemo.components"
+},
+{
+"game.ecsdemo.system.runsystem",
+"game.ecsdemo.system.changepossystem",
+"game.ecsdemo.system.checkendsystem",
+}
+)
