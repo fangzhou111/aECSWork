@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="590u2hos">
+  <resources>
+    <component id="kkvg0" name="Out.xml" path="/" exported="true"/>
+    <component id="ngp91" name="TestBtn.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

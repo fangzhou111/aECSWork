@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" extention="Button">
+  <displayList>
+    <graph id="n0_ngp9" name="n0" xy="0,0" size="300,300" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_ngp9" name="title" xy="0,0" size="300,300" fontSize="30" align="center" vAlign="middle" autoSize="none" text="我是按钮"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

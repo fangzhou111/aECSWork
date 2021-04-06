@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <component id="n0_ngp9" name="n0" src="ngp91" fileName="TestBtn.xml" xy="381,160">
+      <Button title="按钮1"/>
+    </component>
+    <text id="n1_ngp9" name="n1" xy="946,494" size="200,59" fontSize="30" align="center" vAlign="middle" autoSize="none" text="我是结果"/>
+    <component id="n2_ngp9" name="n2" src="ngp91" fileName="TestBtn.xml" xy="702,166" size="300,300">
+      <Button title="按钮2"/>
+    </component>
+  </displayList>
+</component>
