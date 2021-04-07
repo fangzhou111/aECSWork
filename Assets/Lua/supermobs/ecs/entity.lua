@@ -173,6 +173,15 @@ function entity:replacecomponent(componenttypeid, component)
 	if previous == component then
 		self.pool:updategroups(ecs.pool.groupsupdatetype.componentreplaced, self, componenttypeid, component, previous)
 	else
+		--removecomponent的时候防止component持有go或者mono,如果确定数据层不会持有go或者mono可以干掉
+		if component == ecs.null then
+			for k,v in pairs(self.components[componenttypeid]) do
+				self.components[componenttypeid][k] = nil
+			end
+
+			self.components[componenttypeid] = nil
+		end
+
 		self.components[componenttypeid] = component
 		self.pool:recyclecomponent(componenttypeid, previous)
 		if component == ecs.null then
