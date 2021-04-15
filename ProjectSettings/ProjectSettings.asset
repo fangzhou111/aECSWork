@@ -576,7 +576,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: FAIRYGUI_TOLUA;FAIRYGUI_TEST;MIKU_RECOMPILE
+    1: FAIRYGUI_TOLUA;FAIRYGUI_TEST;MIKU_RECOMPILE;USING_DOTWEENING
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
