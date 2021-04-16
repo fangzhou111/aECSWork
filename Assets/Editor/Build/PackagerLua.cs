@@ -31,9 +31,15 @@ namespace Build.Editor
         [MenuItem("Build/PackagerLua")]
         public static void GenerateLua()
         {
+            
+            var files = Directory.GetFiles(BuildConstants.OutputPath, "*.lua", SearchOption.AllDirectories);
+            foreach (var file in files)
+            {
+                File.Delete(file);
+            }
             foreach (var dir in new string[]{LuaConst.luaDir, LuaConst.toluaDir})
             {
-                var files = Directory.GetFiles(dir, "*.lua", SearchOption.AllDirectories);
+                 files = Directory.GetFiles(dir, "*.lua", SearchOption.AllDirectories);
                 foreach (var file in files)
                 {
                     var path = file.Replace(UnityEngine.Application.dataPath, "");
