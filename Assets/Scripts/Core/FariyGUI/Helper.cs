@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
+using SuperMobs.Game.AssetLoader;
 using UnityEngine;
 
 namespace FairyGUI
 {
     public static class Helper
     {
+        
+        private const string PathPrefix = "Assets/Arts/UI/";
         private static Dictionary<System.Type, System.Func<string, string, Object>> _uiTypeResLoader = new Dictionary<System.Type, System.Func<string, string, Object>>();
 
         static Helper()
@@ -27,18 +30,29 @@ namespace FairyGUI
             GRoot.inst.SetContentScaleFactor(1920, 1080, UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);
 
             // ui各种资源的加载 
-            _uiTypeResLoader[typeof(TextAsset)] = TestLoad;
-            _uiTypeResLoader[typeof(Texture2D)] = TestLoad;
-            _uiTypeResLoader[typeof(Texture)] = TestLoad;
-            _uiTypeResLoader[typeof(AudioClip)] = TestLoad;
+            // _uiTypeResLoader[typeof(TextAsset)] = TestLoad;
+            // _uiTypeResLoader[typeof(Texture2D)] = TestLoad;
+            // _uiTypeResLoader[typeof(Texture)] = TestLoad;
+            // _uiTypeResLoader[typeof(AudioClip)] = TestLoad;
+            
         }
-
-        //临时资源加载接口
-        public static Object TestLoad(string name, string pkgname)
+        private static void LoadObject(System.Type type,  string packageName, string extension , string ownerLabel, out Object obj)
         {
-            string assetPath = "Assets/test/UI/" + name;
-            return UnityEditor.AssetDatabase.LoadAssetAtPath<Object>(assetPath);
+            var path = PathPrefix + packageName + extension;
+            obj = ResManager.instance.LoadAsset(type, path, ownerLabel);
+            if (obj == null)
+            {
+                Debug.LogError($" load ui error: {packageName} {type.Name} !!!!");
+            }
         }
+        
+        
+        //临时资源加载接口
+        // public static Object TestLoad(string name, string pkgname)
+        // {
+        //     string assetPath = "Assets/test/UI/" + name;
+        //     return UnityEditor.AssetDatabase.LoadAssetAtPath<Object>(assetPath);
+        // }
 
         // lua通过这里加载、释放uipackage资源
         public static void RmovePackage(string pkgName)
@@ -50,6 +64,7 @@ namespace FairyGUI
             else
             {
                 UIPackage.RemovePackage(pkgName);
+                ResManager.instance.ReleaseOwner(pkgName);
             }
         }
         public static void AddPackage(string pkgName)
@@ -63,12 +78,8 @@ namespace FairyGUI
             UIPackage.AddPackage(pkgName, (string name, string extension, System.Type type, out DestroyMethod destroyMethod) =>
             {
                 destroyMethod = DestroyMethod.None;
-                System.Func<string, string, Object> func;
-                if (_uiTypeResLoader.TryGetValue(type, out func))
-                    return func(name + extension, pkgName);
-
-                Debug.LogError("load ui error:" + name + extension + " type:" + type.ToString());
-                return null;
+                LoadObject(type, name, extension, pkgName, out var obj);
+                return obj;
             });
         }
 

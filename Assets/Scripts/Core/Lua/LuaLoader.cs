@@ -1,61 +1,50 @@
-﻿using LuaInterface;
+﻿using System;
+using System.Collections.Generic;
+using LuaInterface;
 using System.IO;
 using UnityEngine;
+using VEngine;
 
 namespace SuperMobs.Lua
 {
     public class LuaLoader : LuaFileUtils
     {
-        public static void RegLuaFileLoader() { new LuaLoader(); }
+        private string[] luaAssetStart =
+            {"Assets/PublicAssets/LuaOutput/Lua/", "Assets/PublicAssets/LuaOutput/Lib/ToLua/Lua/"};
 
-//#if UNITY_EDITOR
-//        [UnityEditor.MenuItem("Lua/temp pack")]
-//        static void TempPackLuaScript()
-//        {
-//            if (Directory.Exists("Assets/Scripts/Lua/Resources/"))
-//                Directory.Delete("Assets/Scripts/Lua/Resources/", true);
-//            Directory.CreateDirectory("Assets/Scripts/Lua/Resources/");
+        const string OutputEx = ".bytes";
+        public static Func<LuaFileUtils> LoadLuaFileUtils { get; set; }
 
-//            CopyScript(new DirectoryInfo("Assets/Lua/"), "");
-//            CopyScript(new DirectoryInfo("Assets/Lib/ToLua/ToLua/Lua/"), "");
-
-//            UnityEditor.AssetDatabase.Refresh();
-//            Debug.Log("temp pack lua Done !");
-//        }
-
-//        static void CopyScript(DirectoryInfo di, string prefix)
-//        {
-//            foreach (FileInfo fi in di.GetFiles())
-//                if (fi.Name.EndsWith(".lua"))
-//                    File.WriteAllBytes("Assets/Scripts/Lua/Resources/" + prefix + fi.Name + ".bytes", File.ReadAllBytes(fi.FullName));
-//            foreach (DirectoryInfo cdi in di.GetDirectories())
-//                CopyScript(cdi, prefix + cdi.Name + ".");
-//        }
-//#endif
+        public static void RegLuaFileLoader()
+        {
+            LuaFileUtils luaFileUtils = LoadLuaFileUtils?.Invoke();
+            if (luaFileUtils == null)
+            {
+                var loader = new LuaLoader();
+                // luaFileUtils = loader;
+            }
+        }
 
 
         public override byte[] ReadFile(string fileName)
         {
-            byte[] data;
-            Debug.Log("load lua file " + fileName);
-
-            //临时加载代码
-            string temp = fileName.Replace(".lua", "");
-            string assetPath = "Assets/Lua/" + temp.Replace(".", "/") + ".lua";
-
-            if (!File.Exists(assetPath))
+            fileName = fileName.Replace(".lua", "").Replace(".", "/") + OutputEx;
+            foreach (var start in luaAssetStart)
             {
-                assetPath = "Assets/Lib/ToLua/Lua/" + temp.Replace(".", "/") + ".lua";
+                var path = start + fileName;
+                var asset = Asset.Load(path, typeof(TextAsset), true);
+                if (asset != null)
+                {
+                    return (asset.asset as TextAsset)?.bytes;   
+                }
             }
 
-            var asset = File.ReadAllBytes(assetPath);
-            if (asset == null)
-            {
-                Debug.LogError("没有这个文件");
-            }
+            return null;
+        }
 
-            data = asset;
-            return data;
+        public override void Dispose()
+        {
+            base.Dispose();
         }
     }
 }
