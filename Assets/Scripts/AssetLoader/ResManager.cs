@@ -278,11 +278,6 @@ namespace SuperMobs.Game.AssetLoader
             }
             
         }
-        private void Awake()
-        {
-            _instance = this;
-            
-        }
 
         private void OnDestroy()
         {
@@ -299,7 +294,9 @@ namespace SuperMobs.Game.AssetLoader
             if (_systemDefaultOwner != null)
             {
                 Destroy(_systemDefaultOwner);
-            }      if (_sceneDefaultOwner != null)
+            }
+
+            if (_sceneDefaultOwner != null)
             {
                 Destroy(_sceneDefaultOwner);
             }
