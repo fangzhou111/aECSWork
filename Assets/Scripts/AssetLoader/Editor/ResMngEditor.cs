@@ -58,7 +58,7 @@ namespace SuperMobs.Game.AssetLoader
             showResHandler = EditorGUILayout.BeginFoldoutHeaderGroup(showResHandler, "ResHandler");
             if (showResHandler)
             {
-                var resHandlers = GetField<Dictionary<string, ResHandler>>(ResManager.instance, "_resHandlers");
+                var resHandlers = GetField<Dictionary<string, ResHandler>>(ResManager.Instance, "_resHandlers");
                 foreach (var item in resHandlers)
                 {
                     if (!string.IsNullOrEmpty(_search))
