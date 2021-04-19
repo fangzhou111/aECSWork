@@ -39,7 +39,7 @@ namespace FairyGUI
         private static void LoadObject(System.Type type,  string packageName, string extension , string ownerLabel, out Object obj)
         {
             var path = PathPrefix + packageName + extension;
-            obj = ResManager.instance.LoadAsset(type, path, ownerLabel);
+            obj = ResManager.Instance.LoadAsset(type, path, ownerLabel);
             if (obj == null)
             {
                 Debug.LogError($" load ui error: {packageName} {type.Name} !!!!");
@@ -64,7 +64,7 @@ namespace FairyGUI
             else
             {
                 UIPackage.RemovePackage(pkgName);
-                ResManager.instance.ReleaseOwner(pkgName);
+                ResManager.Instance.ReleaseOwner(pkgName);
             }
         }
         public static void AddPackage(string pkgName)

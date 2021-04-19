@@ -34,9 +34,9 @@ namespace SuperMobs.Game.AssetLoader
         public GoHandler(string path, string ownerLabel)
         {
             _path = path;
-            _resConfig = ResManager.instance.GetResConfigs(path);
+            _resConfig = ResManager.Instance.GetResConfigs(path);
 
-            var owner = ResManager.instance.GetOwnerObj(_resConfig, ownerLabel);
+            var owner = ResManager.Instance.GetOwnerObj(_resConfig, ownerLabel);
             if (!_owners.Contains(owner))
             {
                 _owners.Add(owner);
