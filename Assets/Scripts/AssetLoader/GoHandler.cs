@@ -213,8 +213,11 @@ namespace SuperMobs.Game.AssetLoader
 
         private Object InstantiateObj()
         {
-            var obj = Object.Instantiate(_assetHandler.asset);
-                    
+            var obj = Object.Instantiate(_assetHandler.asset,  Vector3.zero, Quaternion.identity, ResManager.Instance.transform) as GameObject;
+
+            var ownerObj = new GameObject(_path);
+            ownerObj.transform.SetParent(obj.transform);
+            
             _useObjects.Add(obj);
             _useIndex = -1;
             return obj;
