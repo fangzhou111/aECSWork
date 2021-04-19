@@ -26,19 +26,23 @@ namespace SuperMobs.Game.AssetLoader
         Scene,
         Custom,
     }
-    public class ResManager:MonoBehaviour
+    public class ResManager : MonoBehaviour
     {
+        private static object _lock = new object();
         private static ResManager _instance;
 
-        public static ResManager instance
+        public static ResManager Instance
         {
             get
             {
-                if (_instance == null)
+                lock (_lock)
                 {
-                    DontDestroyOnLoad(new GameObject("ResManager").AddComponent<ResManager>());
+                    if (_instance == null)
+                    {
+                        DontDestroyOnLoad(new GameObject("ResManager").AddComponent<ResManager>());
+                    }
+                    return _instance;
                 }
-                return _instance;
             }
         }
 
