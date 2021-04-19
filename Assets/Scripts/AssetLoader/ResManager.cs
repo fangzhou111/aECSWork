@@ -39,7 +39,8 @@ namespace SuperMobs.Game.AssetLoader
                 {
                     if (_instance == null)
                     {
-                        DontDestroyOnLoad(new GameObject("ResManager").AddComponent<ResManager>());
+                        _instance = new GameObject("ResManager").AddComponent<ResManager>();
+                        DontDestroyOnLoad(_instance);
                     }
                     return _instance;
                 }
@@ -55,7 +56,7 @@ namespace SuperMobs.Game.AssetLoader
         /// 不可实例化的
         /// </summary>
         private readonly Dictionary<string, ResHandler> _resHandlers = new Dictionary<string, ResHandler>(); 
-        private readonly Dictionary<int,ResHandler> _resIdHandlers = new Dictionary<int, ResHandler>(); 
+        private readonly Dictionary<int,ResHandler> _resIdHandlers = new Dictionary<int, ResHandler>(); //实例化的非GO列表
         
         private ResConfig _defaultResConfig = new ResConfig();
 
