@@ -15,5 +15,6 @@ MonoBehaviour:
   groups:
   - {fileID: 11400000, guid: 63824e4eed2db96489c20ae30d7b7b80, type: 2}
   - {fileID: 11400000, guid: 9eb3f813d7a0b654c8e34a95290a18b6, type: 2}
-  size: 113482
+  - {fileID: 11400000, guid: 0bf93bdada3c0734182b4ae6558fc24a, type: 2}
+  size: 0
   settings: {fileID: 11400000, guid: 1889e02511336af40b37a630a218dc19, type: 2}
