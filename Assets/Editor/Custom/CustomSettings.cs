@@ -8,6 +8,7 @@ using BindType = ToLuaMenu.BindType;
 using System.Reflection;
 using Unity.Collections;
 using FairyGUI;
+using SuperMobs.Game.AssetLoader;
 
 public static class CustomSettings
 {
@@ -198,6 +199,7 @@ public static class CustomSettings
         //Custom
         _GT(typeof(Helper)),
         _GT(typeof(SuperMobs.LuaUtils.GOUtils)),
+        _GT(typeof(ResManager)),
     };
 
     public static List<Type> dynamicList = new List<Type>()

@@ -29,7 +29,8 @@ namespace SuperMobs.Game.AssetLoader
         private readonly Stack<Object> _unUseObjects = new Stack<Object>();
         private readonly Queue<Action<Object>> _completedQueue = new Queue<Action<Object>>();
         private readonly List<GameObject> _owners = new List<GameObject>();
-
+        private bool _loadMin = false;
+        private int _useIndex = -1;
         public GoHandler(string path, string ownerLabel)
         {
             _path = path;
@@ -76,21 +77,34 @@ namespace SuperMobs.Game.AssetLoader
 
         private void LoadMin()
         {
+            if (_loadMin)
+            {
+                return;
+            }
+            _loadMin = true;
             if (_resConfig.Min > 0)
             {
                 var start = _useObjects.Count + _unUseObjects.Count + _completedQueue.Count;
                 if (start < _resConfig.Min)
                 {
-                    for (int i = start; i < _resConfig.Min; i++)
+                    var isDone = _assetHandler.isDone;
+                    if (isDone)
                     {
-                        if (_assetHandler.isDone)
+                        
+                        for (int i = start; i < _resConfig.Min; i++)
                         {
-                            InstantiateAsync((obj) => { });
+                            InstantiateAsync(Retain);
                         }
-                        else
+                    }
+                    else
+                    {
+                        _assetHandler.completed += (asset) =>
                         {
-                            _assetHandler.completed += (asset) => { };
-                        }
+                            for (int i = _useObjects.Count + _unUseObjects.Count + _completedQueue.Count; i < _resConfig.Min; i++)
+                            {
+                                InstantiateAsync(Retain);
+                            }
+                        };
                     }
                 }
             }
@@ -98,7 +112,13 @@ namespace SuperMobs.Game.AssetLoader
 
         public void Retain(Object obj)
         {
-            
+            if (obj == null)
+            {
+                return;
+            }
+            _useObjects.Remove(obj);
+            _unUseObjects.Push(obj);
+            (obj as GameObject)?.SetActive(false);
         }
         public void Release()
         {
@@ -168,14 +188,37 @@ namespace SuperMobs.Game.AssetLoader
             var obj = GetUnUseObj();
             if (null == obj)
             {
-                obj = Object.Instantiate(_assetHandler.asset);
-
-                _useObjects.Add(obj);
+                if (_resConfig.Max == 0 || _useObjects.Count == 0 || _resConfig.Max >= _useObjects.Count + _unUseObjects.Count)
+                {
+                    obj = InstantiateObj();
+                }
+                else
+                {
+                    _useIndex++;
+                    if (_useIndex >= _useObjects.Count)
+                    {
+                        _useIndex = 0;
+                    }
+                    obj = _useObjects[_useIndex];
+                    if (obj == null)
+                    {
+                        _useObjects.RemoveAt(_useIndex);
+                        obj = InstantiateObj();
+                    }
+                }
             }
 
             return obj;
         }
 
+        private Object InstantiateObj()
+        {
+            var obj = Object.Instantiate(_assetHandler.asset);
+                    
+            _useObjects.Add(obj);
+            _useIndex = -1;
+            return obj;
+        }
         private void InstantiateAsync(Action<Object> completed)
         {
             var obj = GetUnUseObj();
@@ -231,6 +274,7 @@ namespace SuperMobs.Game.AssetLoader
             _useObjects.Clear();
             _unUseObjects.Clear();
             _completedQueue.Clear();
+            _loadMin = false;
         }
     }
 }
