@@ -41,7 +41,7 @@ namespace SuperMobs.Game.AssetLoader
             showGoHandlers = EditorGUILayout.BeginFoldoutHeaderGroup(showGoHandlers, "GoHandlers");
             if (showGoHandlers)
             {
-                var goHandlers = GetField<Dictionary<string, GoHandler>>(ResManager.instance, "_goHandlers");
+                var goHandlers = GetField<Dictionary<string, GoHandler>>(ResManager.Instance, "_goHandlers");
                 foreach (var item in goHandlers)
                 {
                     if (!string.IsNullOrEmpty(_search))
