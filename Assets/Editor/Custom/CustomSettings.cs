@@ -195,6 +195,7 @@ public static class CustomSettings
         _GT(typeof(EaseType)),
         _GT(typeof(TweenValue)),
         _GT(typeof(UIObjectFactory)),
+        _GT(typeof(GoWrapper)),
 
         //Custom
         _GT(typeof(Helper)),
