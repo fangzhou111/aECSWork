@@ -47,40 +47,50 @@ namespace SuperMobs.Game.AssetLoader
             }
         }
 
-        private readonly Dictionary<string, ResConfig> _resConfigs = new Dictionary<string, ResConfig>();
-        /// <summary>
-        /// 可以实例化
-        /// </summary>
-        private readonly Dictionary<string, GoHandler> _goHandlers = new Dictionary<string, GoHandler>();
-        /// <summary>
-        /// 不可实例化的
-        /// </summary>
-        private readonly Dictionary<string, ResHandler> _resHandlers = new Dictionary<string, ResHandler>(); 
-        private readonly Dictionary<int,ResHandler> _resIdHandlers = new Dictionary<int, ResHandler>(); //实例化的非GO列表
-        
-        private ResConfig _defaultResConfig = new ResConfig();
 
+        //配置信息
+        private ResConfig _defaultResConfig = new ResConfig();
+        private readonly Dictionary<string, ResConfig> _resConfigs = new Dictionary<string, ResConfig>();
+
+        //GO缓冲实例列表
+        private readonly Dictionary<string, BufferResLoader> _dicBufferResLoaders = new Dictionary<string, BufferResLoader>();
+
+        //原始资源列表
+        private readonly Dictionary<string, AssetResLoader> _dicAssetResLoadersByPath = new Dictionary<string, AssetResLoader>();
+        //原始资源归还索引，不要用来处理业务
+        private readonly Dictionary<int,AssetResLoader> _dicAssetResLoadersById = new Dictionary<int, AssetResLoader>();
+
+
+        //不缓冲的资源列表
+        private readonly Dictionary<string, SimpleResLoader> _dicSimpleLoaders = new Dictionary<string, SimpleResLoader>();
+        
+        //持有者列表
         private readonly Dictionary<string, GameObject> _systemOwners = new Dictionary<string, GameObject>();
         private readonly Dictionary<string, GameObject> _sceneOwners = new Dictionary<string, GameObject>();
-
-        private GameObject _systemDefaultOwner;
-        private GameObject _sceneDefaultOwner;
-
-        private readonly List<string> _invalidSysOwners = new List<string>();
-        private readonly List<string> _invalidSceneOwners = new List<string>();
-        private readonly List<string> _invalidResHandlers = new List<string>();
 
         private GameObject systemDefaultOwner
         {
             get
             {
-                if (_systemDefaultOwner == null)
+                if (!_systemOwners.TryGetValue("Default", out GameObject owner))
                 {
-                    _systemDefaultOwner = new GameObject("Owner_Default_System");
-                    DontDestroyOnLoad(_systemDefaultOwner);
+                    owner = new GameObject("Owner_System_Default");
+                    DontDestroyOnLoad(owner);
+
+                    _systemOwners.Add("Default", owner);
+                }
+                else
+                {
+                    if (owner == null)
+                    {
+                        owner = new GameObject("Owner_System_Default");
+                        DontDestroyOnLoad(owner);
+
+                        _systemOwners["Default"] = owner;
+                    }
                 }
 
-                return _systemDefaultOwner;
+                return owner;
             }
         }
 
@@ -88,12 +98,21 @@ namespace SuperMobs.Game.AssetLoader
         {
             get
             {
-                if (_sceneDefaultOwner == null)
+                if (!_sceneOwners.TryGetValue("Default", out GameObject owner))
                 {
-                    _sceneDefaultOwner = new GameObject("Owner_Default_Scene");
+                    owner = new GameObject("Owner_Scene_Default");
+                    _sceneOwners.Add("Default", owner);
+                }
+                else
+                {
+                    if (owner == null)
+                    {
+                        owner = new GameObject("Owner_Scene_Default");
+                        _sceneOwners["Default"] = owner;
+                    }
                 }
 
-                return _sceneDefaultOwner;
+                return owner;
             }
         }
 
@@ -118,9 +137,16 @@ namespace SuperMobs.Game.AssetLoader
 
                 if (!_systemOwners.TryGetValue(ownerLabel, out var obj))
                 {
-                    obj = new GameObject($"Owner_Scene_{ownerLabel}");
-                    DontDestroyOnLoad(obj);
-                    _systemOwners.Add(ownerLabel, obj);
+                    obj = new GameObject($"Owner_Scene_{ownerLabel}");                   
+                    _sceneOwners.Add(ownerLabel, obj);
+                }
+                else
+                {
+                    if (obj == null)
+                    {
+                        obj = new GameObject($"Owner_Scene_{ownerLabel}");
+                        _sceneOwners[ownerLabel] = obj;
+                    }
                 }
 
                 return obj;
@@ -135,7 +161,18 @@ namespace SuperMobs.Game.AssetLoader
                 if (!_sceneOwners.TryGetValue(ownerLabel, out var obj))
                 {
                     obj = new GameObject($"Owner_System_{ownerLabel}");
-                    _sceneOwners.Add(ownerLabel, obj);
+                    DontDestroyOnLoad(obj);
+                    _systemOwners.Add(ownerLabel, obj);
+                }
+                else
+                {
+                    if (obj == null)
+                    {
+                        obj = new GameObject($"Owner_System_{ownerLabel}");
+                        DontDestroyOnLoad(obj);
+
+                        _systemOwners[ownerLabel] = obj;
+                    }
                 }
 
                 return obj;
@@ -144,227 +181,235 @@ namespace SuperMobs.Game.AssetLoader
             return null;
         }
 
-        #region 非GameObject
-        /// <summary>
-        /// 同步接口 使用需要申请
-        /// </summary>
-        /// <param name="path"></param>
-        /// <param name="ownerLabel"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
+        #region 申请原始资源（非GO）
+        //同步接口 使用需要申请
         public Object LoadAsset(Type t, string path, string ownerLabel = "") 
         {
-            if (!_resHandlers.TryGetValue(path, out var resHandler))
+            if (t == typeof(GameObject))
             {
-                resHandler = new ResHandler(path, ownerLabel);
-                _resHandlers.Add(path, resHandler);
-                var ret = resHandler.LoadAsset(t);
-                _resIdHandlers.Add(ret.GetInstanceID(), resHandler);
-
+                Debug.LogError("禁止申请Prefab");
+                return null;
             }
 
-            return resHandler.LoadAsset(t);
-        }
-        
-        public void LoadAssetAsync(Type t, string path, Action<Object> completed)
-        {
-            LoadAssetAsync(t, path, completed, string.Empty);
+            if (!_dicAssetResLoadersByPath.TryGetValue(path, out var assetLoader))
+            {
+                assetLoader = new AssetResLoader(path);
+                _dicAssetResLoadersByPath.Add(path, assetLoader);
+                var ret = assetLoader.LoadAsset(t, ownerLabel);
+                _dicAssetResLoadersById.Add(ret.GetInstanceID(), assetLoader);
+
+                return ret;
+            }
+            else
+                return assetLoader.LoadAsset(t, ownerLabel);
         }
 
-        public void LoadAssetAsync(Type t,string path, Action<Object> completed, string ownerLabel)
+        public void LoadAssetAsync(Type t,string path, Action<Object> completed, string ownerLabel = "")
         {
-            if (!_resHandlers.TryGetValue(path, out var resHandler))
+            if (t == typeof(GameObject))
             {
-                resHandler = new ResHandler(path, ownerLabel);
-                _resHandlers.Add(path, resHandler);
+                Debug.LogError("禁止申请Prefab");
+                return;
             }
 
-            resHandler.LoadAsync(t, completed);
+            if (!_dicAssetResLoadersByPath.TryGetValue(path, out var assetLoader))
+            {
+                assetLoader = new AssetResLoader(path);
+                _dicAssetResLoadersByPath.Add(path, assetLoader);
+            }
+
+            assetLoader.LoadAsync(t, ownerLabel,(asset) =>
+            {
+                if (!_dicAssetResLoadersById.ContainsKey(asset.GetInstanceID()))
+                    _dicAssetResLoadersById.Add(asset.GetInstanceID(), assetLoader);
+
+                completed?.Invoke(asset);
+                completed = null;
+            });
         }
         #endregion
-        
-        #region GameObject
-        /// <summary>
-        /// 同步接口 使用需要申请
-        /// </summary>
-        /// <param name="path"></param>
-        /// <param name="ownerLabel"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public Object Instantiate(Type t, string path, string ownerLabel = "")
+
+        #region 实例化参加缓冲的GO
+        //同步获取 使用需要申请
+        public Object Instantiate(string path, float retaintime = float.NaN, string ownerLabel = "")
         {
-            if (!_goHandlers.TryGetValue(path, out var resHandler))
+            if (!_dicBufferResLoaders.TryGetValue(path, out var bufferLoader))
             {
-                resHandler = new GoHandler(path, ownerLabel);
-                _goHandlers.Add(path, resHandler);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                bufferLoader = new BufferResLoader(path);
+                _dicBufferResLoaders.Add(path, bufferLoader);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
             }
 
-            return resHandler.LoadAsset(t);
+            return bufferLoader.LoadAsset(typeof(GameObject), retaintime, ownerLabel);
+        }
+        //同步获取 使用需要申请
+        public Object Instantiate(string path, string ownerLabel)
+        {
+            return Instantiate(path, float.NaN, ownerLabel);
         }
 
-        public void InstantiateAsync(Type t,string path, Action<Object> completed)
+        public void InstantiateAsync(string path,Action<Object> completed, float retaintime = float.NaN, string ownerLabel = "")
         {
-            InstantiateAsync(t, path, completed, string.Empty);
-        }
-
-        public void InstantiateAsync(Type t, string path,Action<Object> completed, string ownerLabel)
-        {
-            if (!_goHandlers.TryGetValue(path, out var resHandler))
+            if (!_dicBufferResLoaders.TryGetValue(path, out var bufferLoader))
             {
-                resHandler = new GoHandler(path, ownerLabel);
-                _goHandlers.Add(path, resHandler);
+                bufferLoader = new BufferResLoader(path);
+                _dicBufferResLoaders.Add(path, bufferLoader);
             }
 
-            resHandler.LoadAsync(t ,completed);
+            bufferLoader.LoadAsync(typeof(GameObject), completed, retaintime, ownerLabel);
+        }
+
+        public void InstantiateAsync(string path, Action<Object> completed, string ownerLabel)
+        {
+            InstantiateAsync(path, completed, float.NaN, ownerLabel);
         }
         #endregion
-        
+
+        #region 实例化非缓冲的资源
+        //同步获取 使用需要申请
+        public Object InstantiateSimple(Type t, string path,float destroytime = float.NaN)
+        {
+            if (_dicSimpleLoaders.TryGetValue(path, out SimpleResLoader loader))
+            {
+                return loader.LoadAsset(t, destroytime);
+            }
+            else
+            {
+                loader = new SimpleResLoader(path);
+                _dicSimpleLoaders.Add(path, loader);
+
+                return loader.LoadAsset(t, destroytime);
+            }
+        }
+
+        public void InstantiateSimpleAsync(Type t, string path, Action<Object> completed, float destroytime = float.NaN)
+        {
+            if (_dicSimpleLoaders.TryGetValue(path, out SimpleResLoader loader))
+            {
+                loader.LoadAsync(t, completed, destroytime);
+            }
+            else
+            {
+                loader = new SimpleResLoader(path);
+                _dicSimpleLoaders.Add(path, loader);
+
+                loader.LoadAsync(t, completed, destroytime);
+            }
+        }
+        #endregion
+
+        //归还接口
         public void Retain(Object obj)
         {
+            if (obj == null)
+            {
+                return;
+            }
+
             if (obj is GameObject go)
             {
                 var pathObj = go.transform.GetChild(go.transform.childCount - 1);
                 var path = pathObj.name;
-                if(_goHandlers.TryGetValue(path, out var goHandler))
+                if(_dicBufferResLoaders.TryGetValue(path, out var bufferLoader))
                 {
-                    goHandler.Retain(obj);
+                    bufferLoader.Retain(obj);
                     return;
-                }
-                
+                }       
             }
             else
             {
-             
                 var id = obj.GetInstanceID();
-                if (_resIdHandlers.TryGetValue(id, out var resHandler))
+                if (_dicAssetResLoadersById.TryGetValue(id, out var assetloader))
                 {
-                    
-                    resHandler.Retain(obj);
+                    assetloader.Retain(obj);
                     return;
                 }
-                
             }
-            
-            Debug.LogError("retain obj error");
+
+            //非缓冲资源直接删除
+            Destroy(obj);           
         }
 
+        //按持有者类型卸载
         public void ReleaseOwner(string ownerLabel)
         {
-            
             if (string.IsNullOrEmpty(ownerLabel))
             {
                 return;
             }
+
             GameObject obj = null;
-            if (_systemDefaultOwner && _systemDefaultOwner.name == ownerLabel)
-            {
-                _systemDefaultOwner = null;
-            } 
-            else if (_sceneDefaultOwner && _sceneDefaultOwner.name == ownerLabel)
-            {
-                _sceneDefaultOwner = null;
-                return;
-            }
-            else if (_systemOwners.TryGetValue(ownerLabel, out  obj))
+
+            if (_systemOwners.TryGetValue(ownerLabel, out obj))
             {
                 _systemOwners.Remove(ownerLabel);
-            } else if (_sceneOwners.TryGetValue(ownerLabel, out  obj))
-            {
-                _sceneOwners.Remove(ownerLabel);
+                GameObject.Destroy(obj);
             }
 
-            if (obj)
+            if (_sceneOwners.TryGetValue(ownerLabel, out obj))
             {
-                Destroy(obj);
+                _sceneOwners.Remove(ownerLabel);
+                GameObject.Destroy(obj);
+            }        
+        }
+
+        //立即干翻全部已经不活跃的资源及实例
+        public void ClearUnuseImmediate()
+        {
+            foreach(var kv in _dicSimpleLoaders)
+            {
+                kv.Value.Update();
             }
-            
+
+            foreach (var kv in _dicAssetResLoadersByPath)
+            {
+                kv.Value.Update();
+            }
+
+            foreach (var kv in _dicBufferResLoaders)
+            {
+                kv.Value.Update();
+            }
+        }
+
+        //立即干翻全家(警告：此接口将卸载所有通过resmanager加载的一切)
+        public void Clear()
+        {
+            GameObject.DestroyImmediate(gameObject);
         }
 
         private void OnDestroy()
         {
-            foreach (var handler in _resHandlers.Values)
+            foreach(var kv in _dicSimpleLoaders)
             {
-                handler.Release();
+                kv.Value.Dispose();
             }
+            _dicSimpleLoaders.Clear();
 
-            foreach (var handlers in _goHandlers.Values)
+
+            foreach(var kv in _dicAssetResLoadersByPath)
             {
-                handlers.Release();
+                kv.Value.Dispose();
             }
+            _dicAssetResLoadersByPath.Clear();
+            _dicAssetResLoadersById.Clear();
 
-            if (_systemDefaultOwner != null)
+            foreach(var kv in _dicBufferResLoaders)
             {
-                Destroy(_systemDefaultOwner);
+                kv.Value.Dispose();
             }
+            _dicBufferResLoaders.Clear();
 
-            if (_sceneDefaultOwner != null)
+            foreach(var kv in _systemOwners)
             {
-                Destroy(_sceneDefaultOwner);
+                GameObject.Destroy(kv.Value);
             }
-        }
+            _systemOwners.Clear();
 
-        private void Update()
-        {
-            foreach (var item in _systemOwners)
+            foreach (var kv in _sceneOwners)
             {
-                if (item.Value == null)
-                {
-                    _invalidSysOwners.Add(item.Key);
-                }
+                GameObject.Destroy(kv.Value);
             }
-
-            if (_invalidSysOwners.Count > 0)
-            {
-                foreach (var name in _invalidSysOwners)
-                {
-                    _systemOwners.Remove(name);
-                }
-
-                _invalidSysOwners.Clear();
-            }
-
-            foreach (var item in _sceneOwners)
-            {
-                if (item.Value == null)
-                {
-                    _invalidSceneOwners.Add(item.Key);
-                }
-            }
-
-            if (_invalidSceneOwners.Count > 0)
-            {
-                foreach (var name in _invalidSceneOwners)
-                {
-                    _sceneOwners.Remove(name);
-                }
-
-                _invalidSceneOwners.Clear();
-            }
-
-            foreach (var item in _goHandlers)
-            {
-                bool ret = item.Value.Update();
-                if (item.Value.IsInvalid())
-                {
-                    _invalidResHandlers.Add(item.Key);
-                }
-
-                if (ret)
-                {
-                    break;
-                }
-            }
-
-            if (_invalidResHandlers.Count > 0)
-            {
-                foreach (var name in _invalidResHandlers)
-                {
-                    _goHandlers.Remove(name);
-                }
-
-                _invalidResHandlers.Clear();
-                
-            }
+            _sceneOwners.Clear();
         }
     }
 }

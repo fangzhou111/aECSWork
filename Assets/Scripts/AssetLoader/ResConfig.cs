@@ -16,10 +16,9 @@ namespace SuperMobs.Game.AssetLoader
 {
     public class ResConfig
     {
-        public uint Max = 10;
+        public uint Max = 100000;
         public uint Min;
         public OwnerLevel OwnerLevel = OwnerLevel.Scene;
-        public ulong LastUtc;
         public float StartAutoDestroyTime;
         public float DestroyIntervalTime;
     }

@@ -29,6 +29,7 @@ public class TestLua : MonoBehaviour
         }
     }
 
+
     void OnGUI()
     {
         if (GUILayout.Button("GClua"))
@@ -43,12 +44,13 @@ public class TestLua : MonoBehaviour
 
         if (GUILayout.Button("BBB"))
         {
-            GameController.lua.GetFunction("BBB").Call();
+            //GameController.lua.GetFunction("BBB").Call();
+            
         }
 
         if (GUILayout.Button("AAA"))
         {
-            GameController.lua.GetFunction("AAA").Call();
+            //GameController.lua.GetFunction("AAA").Call();
         }
 
         if (GUILayout.Button("LUAGC"))
