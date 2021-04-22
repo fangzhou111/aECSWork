@@ -10,6 +10,6 @@ public class AddressableAssetProcessor : AssetPostprocessor
     //所有的资源的导入，删除，移动，都会调用此方法，注意，这个方法是static的
     public static void OnPostprocessAllAssets(string[] importedAsset, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
     {
-        
+
     }
 }
