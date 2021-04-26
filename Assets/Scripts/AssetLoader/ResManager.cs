@@ -68,6 +68,9 @@ namespace SuperMobs.Game.AssetLoader
         private readonly Dictionary<string, GameObject> _systemOwners = new Dictionary<string, GameObject>();
         private readonly Dictionary<string, GameObject> _sceneOwners = new Dictionary<string, GameObject>();
 
+        //预加载列表
+        private readonly Queue<BufferResLoader> _preloaders = new Queue<BufferResLoader>();
+
         private GameObject systemDefaultOwner
         {
             get
@@ -204,6 +207,8 @@ namespace SuperMobs.Game.AssetLoader
                 return assetLoader.LoadAsset(t, ownerLabel);
         }
 
+        //异步加载原始资源，常规接口
+        //如果使用的资源不会发生污染及不可逆的变化使用该接口获取
         public void LoadAssetAsync(Type t,string path, Action<Object> completed, string ownerLabel = "")
         {
             if (t == typeof(GameObject))
@@ -247,6 +252,8 @@ namespace SuperMobs.Game.AssetLoader
             return Instantiate(path, float.NaN, ownerLabel);
         }
 
+        //异步获取缓冲GO 常规接口
+        //如果使用的GO不会发生污染及不可逆的变化使用该接口获取GO（典型会被污染的情景为提供给UI使用GO，layer会被污染，且会被FGUI接管）
         public void InstantiateAsync(string path,Action<Object> completed, float retaintime = float.NaN, string ownerLabel = "")
         {
             if (!_dicBufferResLoaders.TryGetValue(path, out var bufferLoader))
@@ -261,6 +268,27 @@ namespace SuperMobs.Game.AssetLoader
         public void InstantiateAsync(string path, Action<Object> completed, string ownerLabel)
         {
             InstantiateAsync(path, completed, float.NaN, ownerLabel);
+        }
+
+        //只有需要缓冲的GO类资源提供preload服务
+        //建议在loading时批量使用，常态使用意义不明
+        public void Prelaod(string path, bool needPreInstantiate, string ownerLabel = "")
+        {
+            if (!_dicBufferResLoaders.TryGetValue(path, out var bufferLoader))
+            {
+                bufferLoader = new BufferResLoader(path);
+                _dicBufferResLoaders.Add(path, bufferLoader);
+            }
+
+            bufferLoader.Preload(typeof(GameObject), needPreInstantiate, ownerLabel);
+
+            _preloaders.Enqueue(bufferLoader);
+        }
+
+        //检查manager所有需要preload的资源是否加载完毕
+        public bool PreLoadDone()
+        {
+            return _preloaders.Count == 0;
         }
         #endregion
 
@@ -281,6 +309,8 @@ namespace SuperMobs.Game.AssetLoader
             }
         }
 
+        //异步获取不被缓冲的资源 常规接口
+        //如果使用的资源会发生污染及不可逆的变化使用该接口获取，主要提供给UI使用（典型会被污染的情景为提供给UI使用GO，layer会被污染，且会被FGUI接管）
         public void InstantiateSimpleAsync(Type t, string path, Action<Object> completed, float destroytime = float.NaN)
         {
             if (_dicSimpleLoaders.TryGetValue(path, out SimpleResLoader loader))
@@ -297,13 +327,14 @@ namespace SuperMobs.Game.AssetLoader
         }
         #endregion
 
+
+
         //归还接口
+        //被缓冲的GO反复归还会引起异常，请注意避免
         public void Retain(Object obj)
         {
             if (obj == null)
-            {
                 return;
-            }
 
             if (obj is GameObject go)
             {
@@ -398,8 +429,9 @@ namespace SuperMobs.Game.AssetLoader
                 kv.Value.Dispose();
             }
             _dicBufferResLoaders.Clear();
+            _preloaders.Clear();
 
-            foreach(var kv in _systemOwners)
+            foreach (var kv in _systemOwners)
             {
                 GameObject.Destroy(kv.Value);
             }
@@ -410,6 +442,15 @@ namespace SuperMobs.Game.AssetLoader
                 GameObject.Destroy(kv.Value);
             }
             _sceneOwners.Clear();
+        }
+
+        private void Update()
+        {
+            //维护preload队列
+            while (_preloaders.Count > 0 && _preloaders.Peek().LoadDone())
+            {
+                _preloaders.Dequeue();
+            }
         }
     }
 }

@@ -25,11 +25,13 @@ namespace SuperMobs.Game.AssetLoader
     {
         public Action<Object> action;
         public float time;
+        public bool forceNew = false;
 
-        public CompleteInfo(Action<Object> a, float t)
+        public CompleteInfo(Action<Object> a, float t,bool force)
         {
             action = a;
             time = t;
+            forceNew = force;
         }
 
         public void Dispose()
@@ -84,7 +86,7 @@ namespace SuperMobs.Game.AssetLoader
                     while(_getAsyncCompletes.Count > 0 && !Updater.Instance.busy)
                     {
                         CompleteInfo info = _getAsyncCompletes.Dequeue();
-                        Object obj = Get(info.time);
+                        Object obj = Get(info.time, info.forceNew);
 
                         info.action.Invoke(obj);
                         info.Dispose();
@@ -101,12 +103,12 @@ namespace SuperMobs.Game.AssetLoader
             _curIntervalTime = 0f;
         }
 
-        private Object Get(float retaintime)
+        private Object Get(float retaintime, bool forceNew = false)
         {
             Object res = null;
 
             //已有
-            if (_frees.Count > 0)
+            if (_frees.Count > 0 && !forceNew)
             {
                 Res r = _frees.Pop();
                 r.ratainTime = retaintime;
@@ -117,7 +119,7 @@ namespace SuperMobs.Game.AssetLoader
                 res = r.o;
             }           
             //超过实例上限
-            else if (_usings.Count >= _resConfig.Max)
+            else if (_usings.Count >= _resConfig.Max && !forceNew)
             {
                 Debug.Log(_path + " 资源使用过热");
 
@@ -153,8 +155,11 @@ namespace SuperMobs.Game.AssetLoader
             GameObject go = res as GameObject;
             if (go != null)
             {
-                GameObject name = new GameObject(_path);
-                name.transform.parent = go.transform;
+                if (go.transform.GetChild(go.transform.childCount - 1).name != _path)
+                {
+                    GameObject name = new GameObject(_path);
+                    name.transform.parent = go.transform;
+                }
                 go.transform.parent = null;
                 go.SetActive(true);
             }
@@ -187,23 +192,89 @@ namespace SuperMobs.Game.AssetLoader
             {
                 _assetHandler = Asset.LoadAsync(_path, t, (asset) => 
                 {
-                    _getAsyncCompletes.Enqueue(new CompleteInfo(completed, retaintime));
+                    _getAsyncCompletes.Enqueue(new CompleteInfo(completed, retaintime, false));
                 });
             }
             else
             {
                 if (_assetHandler.isDone)
                 {
-                    _getAsyncCompletes.Enqueue(new CompleteInfo(completed, retaintime));
+                    _getAsyncCompletes.Enqueue(new CompleteInfo(completed, retaintime, false));
                 }
                 else
                 {
                     _assetHandler.completed += (asset) =>
                     {
-                        _getAsyncCompletes.Enqueue(new CompleteInfo(completed, retaintime));
+                        _getAsyncCompletes.Enqueue(new CompleteInfo(completed, retaintime, false));
                     };
                 }
             }
+        }
+
+        public void Preload(Type t,bool needPreInstantiate, string ownerLabel)
+        {
+            if (_resConfig.OwnerLevel == OwnerLevel.Custom)
+            {
+                Debug.LogError("无法预加载Custom类型:" + _path);
+                return;
+            }
+
+            var owner = ResManager.Instance.GetOwnerObj(_resConfig, ownerLabel);
+            if (!_owners.Contains(owner))
+                _owners.Add(owner);
+
+            if (needPreInstantiate)
+            {
+                if (_assetHandler == null)
+                {
+                    _assetHandler = Asset.LoadAsync(_path, t, (asset) =>
+                    {
+                        uint count = _resConfig.Min;
+
+                        for (int i = 0; i < count; i++)
+                        {
+                            _getAsyncCompletes.Enqueue(new CompleteInfo((o => { Retain(o); }), float.NaN, true));
+                        }
+                    });
+                }
+                else
+                {
+                    if (_assetHandler.isDone)
+                    {
+                        uint count = _resConfig.Min - (uint)_frees.Count - (uint)_usings.Count;
+
+                        for (int i = 0; i < count; i++)
+                        {
+                            _getAsyncCompletes.Enqueue(new CompleteInfo((o => { Retain(o); }), float.NaN, true));
+                        }
+                    }
+                    else
+                    {
+                        _assetHandler.completed += (asset) =>
+                        {
+                            uint count = _resConfig.Min - (uint)_frees.Count - (uint)_usings.Count;
+
+                            for (int i = 0; i < count; i++)
+                            {
+                                _getAsyncCompletes.Enqueue(new CompleteInfo((o => { Retain(o); }), float.NaN, true));
+                            }
+                        };
+                    }
+                }
+            }
+            else
+            {
+                if (_assetHandler == null)
+                    _assetHandler = Asset.LoadAsync(_path, t, null);
+            }
+        }
+
+        public bool LoadDone()
+        {
+            if (_assetHandler == null || _assetHandler.isDone == false || _getAsyncCompletes.Count > 0)
+                return false;
+
+            return true;
         }
 
         //归还
@@ -224,7 +295,7 @@ namespace SuperMobs.Game.AssetLoader
 
             if (go != null)
             {
-                GameObject.Destroy(go.transform.GetChild(go.transform.childCount - 1).gameObject);
+                //GameObject.Destroy(go.transform.GetChild(go.transform.childCount - 1).gameObject);
                 go.SetActive(false);
                 go.transform.parent = ResManager.Instance.transform;
             }

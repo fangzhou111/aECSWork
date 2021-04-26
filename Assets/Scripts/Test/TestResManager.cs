@@ -27,11 +27,11 @@ public class TestResManager : MonoBehaviour
     {
         if (GUILayout.Button("load"))
         {
-            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/1.prefab",2f));
-            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/2.prefab",3f));
-            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/3.prefab",4f));
-            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/4.prefab",5f));
-            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/5.prefab",10f));
+            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/1.prefab", 2f));
+            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/2.prefab", 3f));
+            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/3.prefab", 4f));
+            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/4.prefab", 5f));
+            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(GameObject), "Assets/Arts/Prefabs/5.prefab"));
 
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(Material), "Assets/Arts/Mat/1.mat"));
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimple(typeof(Material), "Assets/Arts/Mat/2.mat"));
@@ -43,7 +43,7 @@ public class TestResManager : MonoBehaviour
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.Instantiate("Assets/Arts/Prefabs/2.prefab", 2f));
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.Instantiate("Assets/Arts/Prefabs/3.prefab", 5f));
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.Instantiate("Assets/Arts/Prefabs/4.prefab", 10f));
-            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.Instantiate("Assets/Arts/Prefabs/5.prefab", 15f));
+            //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.Instantiate("Assets/Arts/Prefabs/5.prefab"));
 
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.LoadAsset(typeof(Material), "Assets/Arts/Mat/1.mat"));
             //Add(SuperMobs.Game.AssetLoader.ResManager.Instance.LoadAsset(typeof(Material), "Assets/Arts/Mat/2.mat"));
@@ -70,7 +70,17 @@ public class TestResManager : MonoBehaviour
             //SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateAsync("Assets/Arts/Prefabs/5.prefab", (o) =>
             //{
             //    Add(o);
-            //},7f);
+            //}, 7f);
+
+            //SuperMobs.Game.AssetLoader.ResManager.Instance.InstantiateSimpleAsync(typeof(GameObject), "Assets/Arts/Prefabs/1.prefab", (o) =>
+            // {
+            //     Add(o);
+            // },10f);
+
+            //SuperMobs.Game.AssetLoader.ResManager.Instance.LoadAssetAsync(typeof(Material), "Assets/Arts/Mat/1.mat", (o) =>
+            // {
+            //     Add(o);
+            // });
 
             //for (int i = 0; i < 100000; i++)
             //{
@@ -80,6 +90,9 @@ public class TestResManager : MonoBehaviour
             //    }, 10f);
             //}
 
+
+            SuperMobs.Game.AssetLoader.ResManager.Instance.Prelaod("Assets/Arts/Prefabs/1.prefab", true);
+            SuperMobs.Game.AssetLoader.ResManager.Instance.Prelaod("Assets/Arts/Prefabs/2.prefab", false);
         }
 
         if (GUILayout.Button("retain"))

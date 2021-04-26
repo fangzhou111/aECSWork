@@ -8,7 +8,6 @@ namespace FairyGUI
     {
         
         private const string PathPrefix = "Assets/Arts/UI/";
-        private static Dictionary<System.Type, System.Func<string, string, Object>> _uiTypeResLoader = new Dictionary<System.Type, System.Func<string, string, Object>>();
 
         static Helper()
         {
@@ -27,14 +26,7 @@ namespace FairyGUI
             stageCamera.AddComponent<StageCamera>();
 
             UIConfig.defaultFont = "BigYoungBoldGB2.0";
-            GRoot.inst.SetContentScaleFactor(1920, 1080, UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);
-
-            // ui各种资源的加载 
-            // _uiTypeResLoader[typeof(TextAsset)] = TestLoad;
-            // _uiTypeResLoader[typeof(Texture2D)] = TestLoad;
-            // _uiTypeResLoader[typeof(Texture)] = TestLoad;
-            // _uiTypeResLoader[typeof(AudioClip)] = TestLoad;
-            
+            GRoot.inst.SetContentScaleFactor(1920, 1080, UIContentScaler.ScreenMatchMode.MatchWidthOrHeight);        
         }
         private static void LoadObject(System.Type type,  string packageName, string extension , string ownerLabel, out Object obj)
         {
@@ -45,14 +37,6 @@ namespace FairyGUI
                 Debug.LogError($" load ui error: {packageName} {type.Name} !!!!");
             }
         }
-        
-        
-        //临时资源加载接口
-        // public static Object TestLoad(string name, string pkgname)
-        // {
-        //     string assetPath = "Assets/test/UI/" + name;
-        //     return UnityEditor.AssetDatabase.LoadAssetAtPath<Object>(assetPath);
-        // }
 
         // lua通过这里加载、释放uipackage资源
         public static void RmovePackage(string pkgName)
@@ -71,8 +55,9 @@ namespace FairyGUI
         {
             if (UIPackage.GetByName(pkgName) != null)
             {
-                return;
-                //Debug.LogError("UIHelper AddPackage " + pkgName + ", but pkg has exist in memory!");
+                Debug.LogError("UIHelper AddPackage " + pkgName + ", but pkg has exist in memory!");
+
+                return;              
             }
 
             UIPackage.AddPackage(pkgName, (string name, string extension, System.Type type, out DestroyMethod destroyMethod) =>
